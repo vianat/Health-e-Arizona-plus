@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div.banner > table > tbody > tr > td:last-child"
+}

@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559334409191' stop='1559334411042'>
+    <name>logo section General</name>
+    <title>logo section General</title>
+    <test-cases>
+        <test-case start='1559334409191' status='passed' stop='1559334411005'>
+            <name>main div width</name>
+            <title>main div width</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559334409194' status='passed' stop='1559334410964'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c56f2c60-c251-44a1-83e7-d890696388f0-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334410965' status='passed' stop='1559334410975'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5ef1f47e-0a02-4153-b610-14d764b5066e-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='3941aa5c-f771-431a-94c4-a68878714c97-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334410997' status='passed' stop='1559334411004'>
+                    <name>GET /session/:sessionId/element/0.9927247718364187-1/css/width</name>
+                    <title>GET /session/:sessionId/element/0.9927247718364187-1/css/width</title>
+                    <attachments>
+                        <attachment title='Response' source='8769bc90-cbe8-4fb0-8c48-22f16d33b38b-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559334411005' status='passed' stop='1559334411024'>
+            <name>main div height</name>
+            <title>main div height</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559334411006' status='passed' stop='1559334411013'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1ac7d891-a473-4b61-96fd-1de269d43705-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='23fdadea-e823-41ac-83be-42e0b2906908-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334411016' status='passed' stop='1559334411023'>
+                    <name>GET /session/:sessionId/element/0.9927247718364187-1/css/height</name>
+                    <title>GET /session/:sessionId/element/0.9927247718364187-1/css/height</title>
+                    <attachments>
+                        <attachment title='Response' source='f5e0faba-b5db-41c5-a14d-1b8fe99decf1-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559334411024' status='passed' stop='1559334411042'>
+            <name>margin</name>
+            <title>margin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559334411024' status='passed' stop='1559334411033'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1a6d61f4-4b81-4e69-b253-d65be3e31b53-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='2b3571d1-6094-412d-92ed-a29a7c621b7d-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334411035' status='passed' stop='1559334411042'>
+                    <name>GET /session/:sessionId/element/0.9927247718364187-1/css/margin-right</name>
+                    <title>GET /session/:sessionId/element/0.9927247718364187-1/css/margin-right</title>
+                    <attachments>
+                        <attachment title='Response' source='56eafbf1-3aca-4231-b173-e4dd4b2397b0-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

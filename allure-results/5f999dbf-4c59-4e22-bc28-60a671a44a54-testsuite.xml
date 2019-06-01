@@ -1,0 +1,519 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559262231717' stop='1559262232131'>
+    <name>Other languages Links</name>
+    <title>Other languages Links</title>
+    <test-cases>
+        <test-case start='1559262231717' status='passed' stop='1559262231741'>
+            <name>color</name>
+            <title>color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559262231717' status='passed' stop='1559262231726'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fa3dc2a3-bf8a-495b-b351-3a68a3e4b4e8-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='efaf8c98-eaec-4300-8c6c-027606835e7c-attachment.json' type='application/json' size='833'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231734' status='passed' stop='1559262231741'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-8/css/color</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-8/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='42858457-e4db-4863-b68c-1dc8797f6d7f-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559262231741' status='passed' stop='1559262231869'>
+            <name>font-family</name>
+            <title>font-family</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559262231741' status='passed' stop='1559262231747'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ecc413b6-02f3-4422-be35-c71b92de1c34-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='51a1adf2-054d-443e-aea2-0535c72a3138-attachment.json' type='application/json' size='833'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231753' status='passed' stop='1559262231759'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-8/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-8/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='eec765cc-14fd-4d90-8332-8e1415c24870-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231760' status='passed' stop='1559262231766'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-9/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-9/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='c2c0bc5c-5956-4f45-a347-1480b8f8dcbb-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231766' status='passed' stop='1559262231773'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-10/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-10/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='ff5623df-93e7-4eda-981d-dd4592f5007e-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231773' status='passed' stop='1559262231781'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-11/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-11/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='41b0d86f-d16e-4897-b9cb-eca4bd0a4e12-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231781' status='passed' stop='1559262231787'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-12/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-12/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='fc80a321-2e33-4c16-9465-d0acbd9b39ee-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231788' status='passed' stop='1559262231794'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-13/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-13/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='dae0c567-3090-439f-859c-e238e8927149-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231794' status='passed' stop='1559262231801'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-14/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-14/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='604b3fd1-db74-4525-afb4-44eb4342a262-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231801' status='passed' stop='1559262231807'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-15/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-15/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='a63a6278-b187-4c13-902f-ad204e9f7740-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231808' status='passed' stop='1559262231814'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-16/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-16/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='69c8b6d6-7cec-4d3d-bdda-a63f8d19a01f-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231814' status='passed' stop='1559262231821'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-17/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-17/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='6fa90a2a-96f2-4b33-b6c4-63001b56ce60-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231821' status='passed' stop='1559262231827'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-18/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-18/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='7df9f780-1ec6-4efa-8bb4-f3999820129d-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231828' status='passed' stop='1559262231834'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-19/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-19/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='520cf542-a3af-4add-b796-2dcbbfcc8c46-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231834' status='passed' stop='1559262231840'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-20/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-20/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='eab0ec62-7c93-4d14-9a15-6b27e41ff394-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231841' status='passed' stop='1559262231847'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-21/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-21/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='38543e3c-b7a5-4326-bd4f-678de1a7c537-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231848' status='passed' stop='1559262231854'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-22/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-22/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='6042f99f-8405-4f38-bf43-ef4b8cb9cd8e-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231855' status='passed' stop='1559262231861'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-23/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-23/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='8dc403ce-4d44-4a4b-b5cf-2a199aa057a2-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231862' status='passed' stop='1559262231868'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-24/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-24/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='cc9c0fab-7b5d-482e-a551-20d746fb86d1-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559262231869' status='passed' stop='1559262231999'>
+            <name>font-size</name>
+            <title>font-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559262231869' status='passed' stop='1559262231875'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='eebfc225-feb0-43eb-af20-06e86fc2fd1d-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='3c8a2827-7feb-4908-8b43-1be1c1790602-attachment.json' type='application/json' size='833'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231882' status='passed' stop='1559262231888'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-8/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-8/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='158d8bd5-af1e-463d-af00-e0e1a5d423bf-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231888' status='passed' stop='1559262231894'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-9/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-9/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='51f664f9-819d-4383-ae3e-b96d82862372-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231894' status='passed' stop='1559262231900'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-10/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-10/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='91955201-cadb-4e4e-953e-4a8ecbc3c35d-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231901' status='passed' stop='1559262231907'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-11/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-11/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='dcfeba84-8378-4785-876c-ba398e373978-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231907' status='passed' stop='1559262231913'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-12/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-12/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='5475129c-cbfa-489d-922a-b84217e35d43-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231914' status='passed' stop='1559262231919'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-13/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-13/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='5c2ccfe6-b666-480e-9892-3175bdc35135-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231920' status='passed' stop='1559262231926'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-14/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-14/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='e862d3ff-ae49-40bc-ad44-f64739270276-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231926' status='passed' stop='1559262231932'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-15/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-15/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='36b19172-44ab-44cd-ad42-4d85289503f3-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231933' status='passed' stop='1559262231939'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-16/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-16/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='6546c8ec-fdd4-4530-86c7-ecdb088906a9-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231939' status='passed' stop='1559262231946'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-17/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-17/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='69ac7fad-82ec-416f-ad4f-8951905cd99c-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231946' status='passed' stop='1559262231953'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-18/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-18/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='a86adba1-b285-4a5e-a3f6-fbf9653dd3b3-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231954' status='passed' stop='1559262231962'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-19/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-19/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='905f7af4-1e9e-45ba-a698-221186c14975-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231963' status='passed' stop='1559262231969'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-20/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-20/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='12daf6e3-94a2-4638-aa60-e15dd0ff2ba1-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231970' status='passed' stop='1559262231976'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-21/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-21/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='442bc3b2-3c1c-4cd0-89ab-6bd9d886ca2c-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231978' status='passed' stop='1559262231985'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-22/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-22/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='0c9005ad-34c9-4152-b52c-ca06fee44764-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231986' status='passed' stop='1559262231992'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-23/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-23/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='62e35351-3d82-4af8-a80c-aae3781804ba-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262231993' status='passed' stop='1559262231999'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-24/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-24/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='f6677f96-2517-464f-a5fb-0df50f62a32a-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559262231999' status='passed' stop='1559262232131'>
+            <name>font-weight</name>
+            <title>font-weight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559262232000' status='passed' stop='1559262232006'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='da1ffeff-839e-4947-9492-60a6b40095c1-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='fdc99a57-cffb-4e1c-8c0f-b442485b5b55-attachment.json' type='application/json' size='833'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232012' status='passed' stop='1559262232018'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-8/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-8/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='714fd1e3-e2ce-41a1-91e7-bd7f1e4eb95c-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232018' status='passed' stop='1559262232024'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-9/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-9/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='8f25919e-550f-4726-9801-4637d0fc7431-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232025' status='passed' stop='1559262232031'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-10/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-10/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='bfdce405-4ba0-463b-8bfb-86c3af3ce4d7-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232031' status='passed' stop='1559262232037'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-11/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-11/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='70cdce58-15da-499f-85e2-b39e0294ce5b-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232038' status='passed' stop='1559262232045'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-12/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-12/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='f35375c5-9174-43c0-821a-e2311cda4ba8-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232046' status='passed' stop='1559262232052'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-13/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-13/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='3c41877f-bdb2-4122-bde0-48afc4f012cb-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232052' status='passed' stop='1559262232059'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-14/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-14/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='85dd6fba-934c-45ed-bedb-809be41ab964-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232059' status='passed' stop='1559262232065'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-15/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-15/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='8dabc52f-e629-4387-8010-d3139f6de5e3-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232066' status='passed' stop='1559262232072'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-16/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-16/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='61a671c5-a0f0-4621-87d2-845ea6180565-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232073' status='passed' stop='1559262232079'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-17/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-17/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='6fe09b7b-5314-44e9-a7d1-ce0857731371-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232080' status='passed' stop='1559262232086'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-18/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-18/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='b64d0674-8bc1-4b95-a936-511d64a7782d-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232087' status='passed' stop='1559262232094'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-19/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-19/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='1e703a84-749e-40fb-a40d-9da859dea53b-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232095' status='passed' stop='1559262232101'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-20/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-20/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='575c5f6f-319d-4fff-b2a0-6ee51677dd80-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232102' status='passed' stop='1559262232109'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-21/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-21/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='144ed444-cdd3-4ee9-a157-041b2d2fcb7e-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232110' status='passed' stop='1559262232116'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-22/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-22/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='06554f87-a1a3-47e1-82fc-49d580ef5485-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232117' status='passed' stop='1559262232124'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-23/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-23/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='3143803e-d120-4544-9cb8-0c85dd0a8e64-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559262232125' status='passed' stop='1559262232131'>
+                    <name>GET /session/:sessionId/element/0.42902021267032686-24/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.42902021267032686-24/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='13c7d5c9-b779-4ebf-88ee-bb1cd48e32e2-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559409676937' stop='1559409676947'>
+    <name>Header Localization &amp; content</name>
+    <title>Header Localization &amp; content</title>
+    <test-cases>
+        <test-case start='1559409676938' status='passed' stop='1559409676947'>
+            <name>Local</name>
+            <title>Local</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559409676938' status='passed' stop='1559409676946'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e688d542-61e9-4eca-84f4-a6d4a6d503ab-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='38b08621-648a-4ae7-9bf6-34dc3fdbfb0e-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

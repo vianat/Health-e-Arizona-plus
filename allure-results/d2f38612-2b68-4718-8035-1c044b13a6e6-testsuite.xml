@@ -1,0 +1,177 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559260772927' stop='1559260773001'>
+    <name>Other languages Header</name>
+    <title>Other languages Header</title>
+    <test-cases>
+        <test-case start='1559260772927' status='passed' stop='1559260772950'>
+            <name>color</name>
+            <title>color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559260772927' status='passed' stop='1559260772939'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b5b7a161-e3d7-4756-8823-8a80953b5795-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='18d9faf4-cd6c-4811-b2f9-64e83ad66c2c-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559260772942' status='passed' stop='1559260772949'>
+                    <name>GET /session/:sessionId/element/0.2174060902958781-6/css/color</name>
+                    <title>GET /session/:sessionId/element/0.2174060902958781-6/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='27784901-e8db-41b6-a15b-92bdfd6398f8-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559260772950' status='failed' stop='1559260772971'>
+            <name>font-family</name>
+            <title>font-family</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559260772951' status='passed' stop='1559260772957'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1e7575ae-4205-4b3e-8885-5b8bd372f1d9-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='2e0686e5-dc18-4e64-8898-ada11c755737-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559260772959' status='passed' stop='1559260772965'>
+                    <name>GET /session/:sessionId/element/0.2174060902958781-6/css/font-family</name>
+                    <title>GET /session/:sessionId/element/0.2174060902958781-6/css/font-family</title>
+                    <attachments>
+                        <attachment title='Response' source='71e5cd0d-b05b-4641-8a9e-a1ee4945052f-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'calibri' == [
+                  'calibri',
+                  'arial'
+                ]</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'calibri' == [
+                  'calibri',
+                  'arial'
+                ]
+                    at Context.equal (C:\QA\Health-e-Arizona-plus\test\body/other-languages.js:32:20)
+                    at Promise (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:57:22)
+                    at Context.executeSync (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:55:10)
+                    at C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:201:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1559260772972' status='failed' stop='1559260772986'>
+            <name>font-size</name>
+            <title>font-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559260772972' status='passed' stop='1559260772978'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='315f7f0f-bc3d-4a1d-930a-922d85c1f7e7-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='1f2142f7-fb7f-4ce1-8816-cc5747261069-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559260772980' status='passed' stop='1559260772986'>
+                    <name>GET /session/:sessionId/element/0.2174060902958781-6/css/font-size</name>
+                    <title>GET /session/:sessionId/element/0.2174060902958781-6/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='be8fd45a-239f-4033-9da6-3a7a22586384-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'22px' == [
+                  '22px',
+                  '17.3333px'
+                ]</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '22px' == [
+                  '22px',
+                  '17.3333px'
+                ]
+                    at Context.equal (C:\QA\Health-e-Arizona-plus\test\body/other-languages.js:36:20)
+                    at Promise (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:57:22)
+                    at Context.executeSync (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:55:10)
+                    at C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:201:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1559260772986' status='failed' stop='1559260773001'>
+            <name>font-weight</name>
+            <title>font-weight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559260772987' status='passed' stop='1559260772993'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='547592df-5b49-4d5a-b3b3-ca9dfe55c27b-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='5ac19a56-fd34-4121-9322-35f967ad7d81-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559260772994' status='passed' stop='1559260773000'>
+                    <name>GET /session/:sessionId/element/0.2174060902958781-6/css/font-weight</name>
+                    <title>GET /session/:sessionId/element/0.2174060902958781-6/css/font-weight</title>
+                    <attachments>
+                        <attachment title='Response' source='56d17fde-2d92-4cfa-a524-f75301b352cd-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>700 == [
+                  700,
+                  400
+                ]</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 700 == [
+                  700,
+                  400
+                ]
+                    at Context.equal (C:\QA\Health-e-Arizona-plus\test\body/other-languages.js:40:20)
+                    at Promise (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:57:22)
+                    at Context.executeSync (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:55:10)
+                    at C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:201:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

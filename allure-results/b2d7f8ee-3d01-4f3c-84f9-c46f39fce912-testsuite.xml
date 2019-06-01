@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559405864951' stop='1559405864975'>
+    <name>Header Localization &amp; content</name>
+    <title>Header Localization &amp; content</title>
+    <test-cases>
+        <test-case start='1559405864951' status='broken' stop='1559405864974'>
+            <name>Local</name>
+            <title>Local</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559405864952' status='passed' stop='1559405864955'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='70081833-1938-4f41-a803-e63fd0a9da27-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559405864955' status='passed' stop='1559405864961'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c87b0afd-356c-4c81-9d2e-6d2f83d3ef38-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='45ed62f7-f4b9-40be-a8f8-4e6e143d81e2-attachment.json' type='application/json' size='284'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559405864964' status='passed' stop='1559405864974'>
+                    <name>GET /session/:sessionId/element/0.5711053324391835-4/text</name>
+                    <title>GET /session/:sessionId/element/0.5711053324391835-4/text</title>
+                    <attachments>
+                        <attachment title='Response' source='7ba4a0ba-d043-41e4-8d81-564f6e7a12cf-attachment.json' type='application/json' size='16'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'equal' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'equal' of undefined
+                    at Context.equal (C:\QA\Health-e-Arizona-plus\test/header.js:117:24)
+                    at Promise (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:57:22)
+                    at Context.executeSync (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:55:10)
+                    at C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:201:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

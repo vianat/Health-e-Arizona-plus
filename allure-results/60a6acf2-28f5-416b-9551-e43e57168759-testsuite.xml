@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559265547999' stop='1559265549825'>
+    <name>announcement General</name>
+    <title>announcement General</title>
+    <test-cases>
+        <test-case start='1559265547999' status='passed' stop='1559265549773'>
+            <name>width</name>
+            <title>width</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559265548001' status='passed' stop='1559265549733'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d118f4e2-86a7-4d6a-b79d-4ce84bc92662-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559265549734' status='passed' stop='1559265549744'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4a006ca3-c21a-41c9-958c-43c1bca58607-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='6552eaff-8802-4f6b-83a1-67fe3a928ba1-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559265549765' status='passed' stop='1559265549772'>
+                    <name>GET /session/:sessionId/element/0.6947164408860464-1/css/width</name>
+                    <title>GET /session/:sessionId/element/0.6947164408860464-1/css/width</title>
+                    <attachments>
+                        <attachment title='Response' source='8df8953d-fd24-4201-9fd7-bf467f9255f5-attachment.json' type='application/json' size='7'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559265549773' status='passed' stop='1559265549789'>
+            <name>height</name>
+            <title>height</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559265549773' status='passed' stop='1559265549780'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='22384e65-2977-4fe1-9f3e-1320566f4a8b-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='9dcb0975-5099-4d57-b9c1-6290744cdc10-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559265549782' status='passed' stop='1559265549789'>
+                    <name>GET /session/:sessionId/element/0.6947164408860464-1/css/height</name>
+                    <title>GET /session/:sessionId/element/0.6947164408860464-1/css/height</title>
+                    <attachments>
+                        <attachment title='Response' source='0296c3d5-049e-4c7d-9460-645ad2c9a47c-attachment.json' type='application/json' size='7'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559265549789' status='passed' stop='1559265549808'>
+            <name>margin</name>
+            <title>margin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559265549789' status='passed' stop='1559265549798'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1f60ea42-c6b6-49be-a2da-05ce59774959-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='89fd6aa7-dbf8-4d32-bea2-1d7695124df7-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559265549801' status='passed' stop='1559265549808'>
+                    <name>GET /session/:sessionId/element/0.6947164408860464-2/css/margin</name>
+                    <title>GET /session/:sessionId/element/0.6947164408860464-2/css/margin</title>
+                    <attachments>
+                        <attachment title='Response' source='5e6f4d18-73ca-4223-b006-c3fcfefa0f3f-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559265549808' status='passed' stop='1559265549825'>
+            <name>padding</name>
+            <title>padding</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559265549808' status='passed' stop='1559265549815'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5ab949eb-957d-4a4b-afdf-76524d36ee7b-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='901f403b-089b-4241-8e1e-cec9bb4b12a3-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559265549818' status='passed' stop='1559265549825'>
+                    <name>GET /session/:sessionId/element/0.6947164408860464-2/css/padding</name>
+                    <title>GET /session/:sessionId/element/0.6947164408860464-2/css/padding</title>
+                    <attachments>
+                        <attachment title='Response' source='48e85445-0255-4392-912b-db563326338a-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

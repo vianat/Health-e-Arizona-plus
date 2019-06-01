@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559334351351' stop='1559334353258'>
+    <name>logo section General</name>
+    <title>logo section General</title>
+    <test-cases>
+        <test-case start='1559334351351' status='failed' stop='1559334353224'>
+            <name>main div width</name>
+            <title>main div width</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559334351355' status='passed' stop='1559334353167'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b5c52bf6-4961-4caf-a64b-d041d3dfa7f6-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334353168' status='passed' stop='1559334353179'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0d2c321c-225b-4d5d-bcd8-02be960d7d2b-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='c2bede3c-77fe-4045-82c7-61257a9b9cba-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334353211' status='passed' stop='1559334353219'>
+                    <name>GET /session/:sessionId/element/0.6199818496658112-1/css/width</name>
+                    <title>GET /session/:sessionId/element/0.6199818496658112-1/css/width</title>
+                    <attachments>
+                        <attachment title='Response' source='bbcfed30-9cf8-419c-9547-8b84ee61d394-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'98px' == '78px'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '98px' == '78px'
+                    at Context.equal (C:\QA\Health-e-Arizona-plus\test\body/logo.js:12:20)
+                    at Promise (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:57:22)
+                    at Context.executeSync (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:55:10)
+                    at C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:201:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1559334353224' status='passed' stop='1559334353241'>
+            <name>main div height</name>
+            <title>main div height</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559334353224' status='passed' stop='1559334353231'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f2196a67-3a30-4f5e-8f39-1f377983438e-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='39dc33ca-aee7-4f58-9e11-572f3826bfaa-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334353235' status='passed' stop='1559334353241'>
+                    <name>GET /session/:sessionId/element/0.6199818496658112-1/css/height</name>
+                    <title>GET /session/:sessionId/element/0.6199818496658112-1/css/height</title>
+                    <attachments>
+                        <attachment title='Response' source='6109c45f-8c48-41af-b750-b6f879d43c1b-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1559334353242' status='failed' stop='1559334353258'>
+            <name>margin</name>
+            <title>margin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559334353242' status='passed' stop='1559334353249'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='91768377-11e8-4283-ae6d-7eabab1789a6-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='823af424-9a7d-40f4-ac32-1d2e367580cb-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559334353251' status='passed' stop='1559334353258'>
+                    <name>GET /session/:sessionId/element/0.6199818496658112-1/css/margin</name>
+                    <title>GET /session/:sessionId/element/0.6199818496658112-1/css/margin</title>
+                    <attachments>
+                        <attachment title='Response' source='ead76162-8528-490c-886a-d14d3cfcc7da-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'0px' == '20px'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '0px' == '20px'
+                    at Context.equal (C:\QA\Health-e-Arizona-plus\test\body/logo.js:20:20)
+                    at Promise (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:57:22)
+                    at Context.executeSync (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:55:10)
+                    at C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:201:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

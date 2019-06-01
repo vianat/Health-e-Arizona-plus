@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1559408253459' stop='1559408253542'>
+    <name>Header Links redirect</name>
+    <title>Header Links redirect</title>
+    <test-cases>
+        <test-case start='1559408253459' status='broken' stop='1559408253542'>
+            <name>logo redirect to main page</name>
+            <title>logo redirect to main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1559408253459' status='passed' stop='1559408253467'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8691107a-b401-496f-831c-4bfc638d3d5a-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='be86e3f7-accb-4b77-9d0e-3ba103971a53-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559408253469' status='passed' stop='1559408253478'>
+                    <name>GET /session/:sessionId/element/0.5965101814965135-9/text</name>
+                    <title>GET /session/:sessionId/element/0.5965101814965135-9/text</title>
+                    <attachments>
+                        <attachment title='Response' source='06e2ee3e-e9e2-4822-adc7-9fbbea05bae2-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559408253478' status='passed' stop='1559408253485'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7f96641c-8765-4d51-a558-75ff975dda99-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='340af844-3646-48c9-899d-a119370406b5-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559408253486' status='passed' stop='1559408253514'>
+                    <name>POST /session/:sessionId/element/0.5965101814965135-2/click</name>
+                    <title>POST /session/:sessionId/element/0.5965101814965135-2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1559408253514' status='passed' stop='1559408253517'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='2e7d615c-38b9-46e8-93c0-5d310a879535-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559408253517' status='passed' stop='1559408253524'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='20f31a70-3b6b-429e-a328-16deedd4230e-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='07ce11fc-189b-4064-8e36-076963d0a526-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559408253525' status='passed' stop='1559408253531'>
+                    <name>GET /session/:sessionId/element/0.5965101814965135-9/text</name>
+                    <title>GET /session/:sessionId/element/0.5965101814965135-9/text</title>
+                    <attachments>
+                        <attachment title='Response' source='58cf1526-866a-4fd9-9f81-6ae0dd763504-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1559408253531' status='passed' stop='1559408253535'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='a2150332-a2d0-4976-82fb-4992d245cb64-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>checkLang is not defined</message>
+                <stack-trace>ReferenceError: checkLang is not defined
+                    at Context.checkLang (C:\QA\Health-e-Arizona-plus\test/header.js:110:25)
+                    at Promise (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:57:22)
+                    at Context.executeSync (C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:55:10)
+                    at C:\QA\Health-e-Arizona-plus\node_modules\@wdio\sync\build\index.js:201:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
