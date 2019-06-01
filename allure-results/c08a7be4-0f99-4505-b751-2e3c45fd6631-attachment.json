@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "body div:nth-child(3) span.ui-button-icon.ui-icon.ui-icon-closethick"
-}

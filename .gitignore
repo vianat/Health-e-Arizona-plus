@@ -1,3 +1,4 @@
-allure-result
+allure-results
 node_modules
 .git
+.idea
