@@ -6,13 +6,13 @@ export default {
     headerBcgrdImg: 'url("https://www.healthearizonaplus.gov/default/images/top_blue_bar.png")',
 
     white: '#ffffff',
-    backgrdBody: '#e9eaec',
+    bkgrd: '#e9eaec',
     fontFamily: 'arial',
     fontSize: '14px',
     fontWeight: 400,
 
-    engMainHesder:"INDIVIDUAL AND FAMILY",
-    spainMainHesder:"INDIVIDUAL Y FAMILIAR",
+    engMainHeader:"INDIVIDUAL AND FAMILY",
+    spainMainHeader:"INDIVIDUAL Y FAMILIAR",
 
     logoRedirectUrl: "https://www.healthearizonaplus.gov/Default/Default.aspx",
     createAcc: "https://www.healthearizonaplus.gov/App/Admin_User_agreement.aspx?new_user=1",

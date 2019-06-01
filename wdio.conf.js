@@ -17,7 +17,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/header.js'
+        './test/individual.js'
         //'./test/*.js'
     ],
     // Patterns to exclude.
@@ -98,7 +98,7 @@ exports.config = {
     baseUrl: 'https://www.healthearizonaplus.gov',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 5000,
     //
     // Default timeout in milliseconds for request
     // if Selenium Grid doesn't send response
@@ -128,6 +128,11 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: ['dot','spec','allure'],
+    reporterOptions: {
+        allure: {
+            outputDir: 'allure-results'
+        }
+    },
 
     //
     // Options to be passed to Mocha.

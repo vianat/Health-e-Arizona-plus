@@ -1,13 +1,17 @@
 export default {
+    body: 'body',
+
     header: '.header-container',
     headerImg: '.header-container img',
     logoNotMainPage: '#logo img',
     headerLinks: '.header-container li a',
+
     lnkSpain: '#lnk_Spanish',
     lnkEnglish: '#lnk_English',
-    body: 'body',
+
     getStarted: '#img_GetStart',
     createAcc: '#lnk_CreateAccountLnk',
+
     returnUser: '#lnk_ReturningUserLogIn',
     popup: '#tbl_div_login',
 

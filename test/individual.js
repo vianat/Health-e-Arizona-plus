@@ -72,12 +72,55 @@ describe('Individual & family section', function () {
 
     describe('Button get started', function () {
 
-        it('img url', function () {
-            assert.equal($(sel.btnGetStart).getAttribute("src"), exp.btnImg);
+        it('img eng url', function () {
+            assert.equal($(sel.btnGetStart).getAttribute("src"), exp.btnEngImg);
+        });
+
+        it('img spain url', function () {
+            $(sel.lnkSpain).click();
+            if($(sel.btnGetStartES).getAttribute("src") === exp.btnSpainImg){
+                $(sel.lnkEnglish).click();
+                return true;
+            }
+            else return false;
         });
 
         it('img url alt text', function () {
             assert.equal($(sel.btnGetStart).getAttribute("alt"), exp.btnImgAlt);
+        });
+
+        it('redirect url', function () {
+            $(sel.btnGetStart).click();
+            $(sel.logoNotMainPage).click();
+            let url = browser.getUrl();
+            if(url === exp.btnEngUrl) return true;
+            return false;
+        });
+
+    });
+
+    describe('Localization & content', function () {
+
+        it('header = eng/spain text', function () {
+            let engContent = $(sel.title).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.title).getText();
+            if(engContent === exp.engText[0] && spainContent === exp.spainText[0]){
+                $(sel.lnkEnglish).click();
+                return true;
+            }
+            else return false;
+        });
+
+        it('description = eng/spain text', function () {
+            let engContent = $(sel.text).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.text).getText();
+            if(engContent === exp.engText[1] && spainContent === exp.spainText[1]){
+                $(sel.lnkEnglish).click();
+                return true;
+            }
+            else return false;
         });
 
     });

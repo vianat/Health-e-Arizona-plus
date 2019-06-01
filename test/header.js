@@ -41,7 +41,7 @@ describe('Header', function () {
         it('body bkgrd color', function () {
 
             let color = $(sel.body).getCSSProperty("background-color").parsed.hex;
-            assert.equal(color, exp.backgrdBody);
+            assert.equal(color, exp.bkgrd);
         });
 
     });
@@ -116,7 +116,7 @@ describe('Header', function () {
             return false;
         });
 
-        it('return user lnk shows pop-up menu', function () {
+        it('return lnk shows pop-up menu', function () {
             $(sel.returnUser).click();
             $(sel.returnUser).waitForDisplayed();
             if($(sel.popup).isDisplayed()){
@@ -150,7 +150,7 @@ describe('Header', function () {
             $(sel.lnkEnglish).click();
             let langAfter = $(sel.mainHeader).getText();
 
-            if(langAfter === exp.engMainHesder)return true;
+            if(langAfter === exp.engMainHeader)return true;
             return false;
         });
 
@@ -158,7 +158,7 @@ describe('Header', function () {
             $(sel.lnkSpain).click();
             let langAfter = $(sel.mainHeader).getText();
 
-            if(langAfter === exp.spainMainHesder){
+            if(langAfter === exp.spainMainHeader){
                 $(sel.lnkEnglish).click();
                 return true;
             }

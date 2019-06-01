@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655a75fc-ea48-4471-9695-11c050f3a214" name="Default Changelist" comment="" />
+    <list default="true" id="655a75fc-ea48-4471-9695-11c050f3a214" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expected/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/expected/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expected/individual.js" beforeDir="false" afterPath="$PROJECT_DIR$/expected/individual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selectors/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/selectors/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selectors/individual.js" beforeDir="false" afterPath="$PROJECT_DIR$/selectors/individual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/individual.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/individual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,70 +24,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+        <entry file="file://$PROJECT_DIR$/test/individual.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="245" column="3" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
+            <state relative-caret-position="575">
+              <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
               <folding>
-                <element signature="e#61#99#0" expanded="true" />
-                <element signature="e#209#1447#0" />
-                <element signature="e#1485#2876#0" />
-                <element signature="e#1520#1822#0" />
-                <element signature="e#1864#2172#0" />
-                <element signature="e#2212#2516#0" />
-                <element signature="e#2558#2866#0" />
-                <element signature="e#2928#3215#0" />
-                <element signature="e#2984#3201#0" />
-                <element signature="e#3270#3465#0" />
-                <element signature="e#3544#3757#0" />
-                <element signature="e#3790#4089#0" />
-                <element signature="e#4189#4530#0" />
-                <element signature="e#4467#4650#0" />
-                <element signature="e#4713#4939#0" />
-                <element signature="e#2931#3504#0" />
-                <element signature="e#2966#3495#0" />
-                <element signature="e#5545#5921#0" />
-                <element signature="e#5981#6359#0" />
-                <element signature="e#6401#6767#0" />
-                <element signature="e#6827#7199#0" />
-                <element signature="e#7268#7646#0" />
+                <element signature="e#238#973#0" />
+                <element signature="e#1011#1589#0" />
+                <element signature="e#1633#2203#0" />
+                <element signature="e#2427#2519#0" />
+                <element signature="e#2584#2801#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/selectors/individual.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="200">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selectors/header.js">
+        <entry file="file://$PROJECT_DIR$/expected/individual.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expected/header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="425">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -99,7 +74,6 @@
       <list>
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/babel.config.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/header/test.js" />
         <option value="$PROJECT_DIR$/selectors/individual-section.js" />
@@ -129,10 +103,14 @@
         <option value="$PROJECT_DIR$/selectors/footer.js" />
         <option value="$PROJECT_DIR$/expected/footer.js" />
         <option value="$PROJECT_DIR$/test/body/footer.js" />
-        <option value="$PROJECT_DIR$/wdio.conf.js" />
-        <option value="$PROJECT_DIR$/expected/header.js" />
-        <option value="$PROJECT_DIR$/selectors/header.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/header.js" />
+        <option value="$PROJECT_DIR$/selectors/header.js" />
+        <option value="$PROJECT_DIR$/expected/header.js" />
+        <option value="$PROJECT_DIR$/selectors/individual.js" />
+        <option value="$PROJECT_DIR$/expected/individual.js" />
+        <option value="$PROJECT_DIR$/wdio.conf.js" />
+        <option value="$PROJECT_DIR$/test/individual.js" />
       </list>
     </option>
   </component>
@@ -217,15 +195,16 @@
       <workItem from="1559183009162" duration="980000" />
       <workItem from="1559230466688" duration="26316000" />
       <workItem from="1559333989805" duration="5031000" />
-      <workItem from="1559405790714" duration="6839000" />
+      <workItem from="1559405790714" duration="9687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50290000" />
+    <option name="totallyTimeSpent" value="53138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08744038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -245,7 +224,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.5425278" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.4419714" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,13 +263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectors/individual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -338,16 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/individual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="74" selection-start-line="74" selection-end-line="76" selection-end-column="11" />
-          <folding>
-            <element signature="e#244#979#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expected/announcement.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -387,13 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expected/individual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -462,27 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectors/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expected/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/warning.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -490,41 +424,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="245" column="3" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
+        <state relative-caret-position="325">
+          <caret line="169" selection-start-line="169" selection-end-line="243" selection-end-column="7" />
           <folding>
             <element signature="e#61#99#0" expanded="true" />
-            <element signature="e#209#1447#0" />
-            <element signature="e#1485#2876#0" />
+            <element signature="e#209#1441#0" />
+            <element signature="e#1485#2875#0" />
             <element signature="e#1520#1822#0" />
             <element signature="e#1864#2172#0" />
             <element signature="e#2212#2516#0" />
             <element signature="e#2558#2866#0" />
-            <element signature="e#2928#3215#0" />
-            <element signature="e#2984#3201#0" />
-            <element signature="e#3270#3465#0" />
-            <element signature="e#3544#3757#0" />
-            <element signature="e#3790#4089#0" />
-            <element signature="e#4189#4530#0" />
-            <element signature="e#4467#4650#0" />
-            <element signature="e#4713#4939#0" />
-            <element signature="e#2931#3504#0" />
-            <element signature="e#2966#3495#0" />
-            <element signature="e#5545#5921#0" />
-            <element signature="e#5981#6359#0" />
-            <element signature="e#6401#6767#0" />
-            <element signature="e#6827#7199#0" />
-            <element signature="e#7268#7646#0" />
+            <element signature="e#2922#4980#0" />
+            <element signature="e#5035#7630#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/selectors/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="101" column="6" lean-forward="true" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/individual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding>
+            <element signature="e#238#973#0" />
+            <element signature="e#1011#1589#0" />
+            <element signature="e#1633#2203#0" />
+            <element signature="e#2427#2519#0" />
+            <element signature="e#2584#2801#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expected/individual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/individual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
