@@ -46,4 +46,20 @@ describe('Warning', function () {
 
     });
 
+    describe('Localization & content', function () {
+
+        it('description = eng/spain text', function () {
+            let engContent = $(sel.text).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.text).getText();
+            if(engContent === exp.warningEN && spainContent === exp.warningSP){
+                $(sel.lnkEnglish).click();
+                return true;
+            }
+            else return false;
+        });
+
+
+    });
+
 });

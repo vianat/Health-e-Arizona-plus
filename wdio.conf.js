@@ -17,8 +17,8 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/individual.js'
-        //'./test/*.js'
+        //'./test/footer.js'
+        './test/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -54,7 +54,7 @@ exports.config = {
         //
         browserName: 'chrome',
         'goog:chromeOptions':{
-            //args: ['--headless'],
+            args: ['--headless'],
             prefs: {
                 language: ''
             }

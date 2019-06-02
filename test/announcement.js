@@ -55,38 +55,46 @@ describe('announcement', function () {
         it('color', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('color').value !== exp.color[0]) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.color[3]){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-family').value !== exp.family[1]) return false;
+                if (el.getCSSProperty('font-family').value !== exp.family[1]){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-size', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-size').value !== exp.size[1]) return false;
+                if (el.getCSSProperty('font-size').value !== exp.size[1]){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.weight[1]) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.weight[1]){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
 
-    describe('Link', function () {
+    describe('Link style', function () {
 
         it('color', function () {
             assert.equal($(sel.link).getCSSProperty('color').parsed.hex, exp.color[2]);
@@ -109,4 +117,66 @@ describe('announcement', function () {
         });
 
     });
+
+    describe('Links redirect', function () {
+
+        it('link url', function () {
+            assert.equal($(sel.link).getAttribute("href"), exp.url);
+        });
+
+        it('link open new window', function () {
+            if($(sel.link).getAttribute('target') === exp.newWindow){
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+    });
+
+    describe('Localization & content', function () {
+
+        it('link = eng text', function () {
+            assert.equal($(sel.link).getText(), exp.linksText);
+        });
+
+        it('header = eng/spain text', function () {
+            let engContent = $(sel.header).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.header).getText();
+
+            if(engContent === exp.headersTextEN && spainContent === exp.headersTextSP){
+                $(sel.lnkEnglish).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+
+        });
+
+        // it('description = eng text', function () {
+        //     let arr = $$(sel.descriptions);
+        //     let allText = "";
+        //     for(let i of arr){
+        //         allText += i.getText();
+        //     }
+        //     console.log(allText);
+        //     console.log("++++");
+        //     assert.equal(allText, exp.textEN);
+        // });
+        //
+        // it('description = spain text', function () {
+        //     $(sel.lnkSpain).click();
+        //     let arr = $$(sel.descriptions);
+        //     let allText = "";
+        //     for(let i of arr){
+        //         allText += i.getText();
+        //     }
+        //     console.log(allText);
+        //     $(sel.lnkEnglish).click();
+        //     assert.equal(allText, exp.textSP);
+        // });
+
+    });
+
 });

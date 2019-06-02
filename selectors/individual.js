@@ -14,5 +14,4 @@ export default {
 
     lnkSpain: '#lnk_Spanish',
     lnkEnglish: '#lnk_English'
-
 }

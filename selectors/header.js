@@ -16,12 +16,12 @@ export default {
     popup: '#tbl_div_login',
 
     help: '#lnk_Help',
-    helpClose: 'body div:nth-child(3) span.ui-button-icon.ui-icon.ui-icon-closethick',
     helpPopUp: 'body div:nth-child(3)',
+    helpClose: 'div:nth-child(3) span.ui-icon-closethick',
 
     faqLink: '#lnk_faqs',
-    faqClose: 'span.ui-button-icon.ui-icon.ui-icon-closethick',
     faqPopUp: 'div.ui-dialog',
+    faqClose: 'span.ui-icon-closethick',
 
     mainHeader: '#lbl_Banner_Text_one'
 }

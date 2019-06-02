@@ -102,4 +102,101 @@ describe('Question section', function () {
 
     });
 
+    describe('Links redirect', function () {
+
+        it('link 1 redirect to correct URL', function () {
+            $(sel.link1).click();
+            let currentURL = browser.getUrl();
+            if(currentURL === exp.link1){
+                $(sel.logoNotMainPage).click();
+                return true;
+            }
+            return false;
+        });
+
+        it('link 2 shows pop-up menu', function () {
+            $(sel.link2).click();
+            $(sel.linkPopUp).waitForDisplayed();
+            if($(sel.linkPopUp).isDisplayed()){
+                $(sel.PopUpClose).click();
+                return true;
+            }
+            return false;
+        });
+
+        it('link 3 open new window', function () {
+            if($(sel.link3).getAttribute('target') === exp.newWindow){
+                return true;
+            }
+            return false;
+        });
+
+        it('link 4 shows pop-up menu', function () {
+            $(sel.link4).click();
+            $(sel.linkPopUp).waitForDisplayed();
+            if($(sel.linkPopUp).isDisplayed()){
+                $(sel.PopUpClose).click();
+                return true;
+            }
+            return false;
+        });
+
+    });
+
+    describe('Localization & content', function () {
+
+        it('headers = eng text', function () {
+            let arr = $$(sel.headers);
+            let count = arr.length;
+            for(let i = 0; i < count; i++){
+                if(arr[i].getText() !== exp.headersTextEN[i]){
+                    return false;
+                }
+            }
+            return true;
+        });
+
+        it('headers = spain text', function () {
+            $(sel.lnkSpain).click();
+            let arr = $$(sel.headers);
+            let count = arr.length;
+
+            for(let i = 0; i < count; i++){
+                if(arr[i].getText() !== exp.headersTextSP[i]){
+                    $(sel.lnkEnglish).click();
+                    return false;
+                }
+            }
+            $(sel.lnkEnglish).click();
+            return true;
+        });
+
+        it('description = eng text', function () {
+            let arr = $$(sel.description);
+            let count = arr.length;
+
+            for(let i = 0; i < count; i++){
+                if(arr[i].getText() !== exp.descriptionTextEN[i]){
+                    return false;
+                }
+            }
+            return true;
+        });
+
+        it('description = spain text', function () {
+            let arr = $$(sel.description);
+            let count = arr.length;
+
+            for(let i = 0; i < count; i++){
+                if(arr[i].getText() !== exp.descriptionTextSP[i]){
+                    $(sel.lnkEnglish).click();
+                    return false;
+                }
+            }
+            $(sel.lnkEnglish).click();
+            return true;
+        });
+
+    });
+
 });

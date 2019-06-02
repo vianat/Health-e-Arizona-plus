@@ -30,7 +30,7 @@ describe('Footer', function () {
 
     });
 
-    describe('Links', function () {
+    describe('Links styles', function () {
 
         it('font-color', function () {
             let arr = $$(sel.links);
@@ -66,7 +66,7 @@ describe('Footer', function () {
 
     });
 
-    describe('Copyrights', function () {
+    describe('Copyrights styles', function () {
 
         it('font-color', function () {
             let arr = $$(sel.copyrights);
@@ -99,6 +99,143 @@ describe('Footer', function () {
                 if (el.getCSSProperty('font-weight').value !== exp.linksWeight) return false;
             }
             return true;
+        });
+
+    });
+
+    describe('Links redirect', function () {
+
+        it('privacy lnk shows pop-up menu', function () {
+            $(sel.privacy).click();
+            $(sel.popUp).waitForDisplayed();
+            if($(sel.popUp).isDisplayed()){
+                $(sel.popUpClose).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('mission lnk shows pop-up menu', function () {
+            $(sel.mission).click();
+            $(sel.popUp).waitForDisplayed();
+            if($(sel.popUp).isDisplayed()){
+                $(sel.popUpClose).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('nonDiscrimination lnk shows pop-up menu', function () {
+            $(sel.nonDiscrimination).click();
+            $(sel.popUp).waitForDisplayed();
+            if($(sel.popUp).isDisplayed()){
+                $(sel.popUpClose).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('about lnk shows pop-up menu', function () {
+            $(sel.about).click();
+            $(sel.popUp).waitForDisplayed();
+            if($(sel.popUp).isDisplayed()){
+                $(sel.popUpClose).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('faq lnk shows pop-up menu', function () {
+            $(sel.faq).click();
+            $(sel.popUp).waitForDisplayed();
+            if($(sel.popUp).isDisplayed()){
+                $(sel.popUpClose).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+    });
+
+    describe('Localization & content', function () {
+
+        it('privacy link = eng/spain text', function () {
+
+            let engContent = $(sel.privacy).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.privacySP).getText();
+            if(engContent === exp.privacyEN && spainContent === exp.privacySP){
+                $(sel.lnkEnglish).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('mission link = eng/spain text', function () {
+
+            let engContent = $(sel.mission).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.mission).getText();
+            if(engContent === exp.missionEN && spainContent === exp.missionSP){
+                $(sel.lnkEnglish).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('nonDiscrimination link = eng/spain text', function () {
+
+            let engContent = $(sel.nonDiscrimination).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.nonDiscrimination).getText();
+            if(engContent === exp.nonDiscriminationEN && spainContent === exp.nonDiscriminationSP){
+                $(sel.lnkEnglish).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('about link = eng/spain text', function () {
+
+            let engContent = $(sel.about).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.about).getText();
+            if(engContent === exp.aboutEN && spainContent === exp.aboutSP){
+                $(sel.lnkEnglish).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('faq link = eng/spain text', function () {
+
+            let engContent = $(sel.faq).getText();
+            $(sel.lnkSpain).click();
+            let spainContent = $(sel.faq).getText();
+            if(engContent === exp.faqEN && spainContent === exp.faqEN){
+                $(sel.lnkEnglish).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('copyRight = eng text', function () {
+            assert.equal($(sel.copyrightsText).getText(), exp.copyrightsTextEn);
+        });
+        it('copyRight = eng text', function () {
+            $(sel.lnkSpain).click();
+            console.log($(sel.copyrightsText).getText());
+            assert.equal($(sel.copyrightsText).getText(), exp.copyrightsTextSp);
         });
 
     });
