@@ -35,33 +35,42 @@ describe('Footer', function () {
         it('font-color', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.linksColor) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.linksColor) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
+
         });
 
         it('font-size', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('font-size').value !== exp.linksSize) return false;
+                if (el.getCSSProperty('font-size').value !== exp.linksSize) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('font-family').value !== exp.linksFamily) return false;
+                if (el.getCSSProperty('font-family').value !== exp.linksFamily) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.linksWeight) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.linksWeight) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -71,34 +80,42 @@ describe('Footer', function () {
         it('font-color', function () {
             let arr = $$(sel.copyrights);
             for (let el of arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.linksColor) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.linksColor) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-size', function () {
             let arr = $$(sel.copyrights);
             for (let el of arr) {
-                if (el.getCSSProperty('font-size').value !== exp.copyrightsSize) return false;
+                if (el.getCSSProperty('font-size').value !== exp.copyrightsSize) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let arr = $$(sel.copyrights);
             for (let el of arr) {
                 console.log(el.getCSSProperty('font-family').value);
-                if (el.getCSSProperty('font-family').value !== exp.linksFamily) return false;
+                if (el.getCSSProperty('font-family').value !== exp.linksFamily) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let arr = $$(sel.copyrights);
             for (let el of arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.linksWeight) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.linksWeight) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -234,7 +251,6 @@ describe('Footer', function () {
         });
         it('copyRight = eng text', function () {
             $(sel.lnkSpain).click();
-            console.log($(sel.copyrightsText).getText());
             assert.equal($(sel.copyrightsText).getText(), exp.copyrightsTextSp);
         });
 

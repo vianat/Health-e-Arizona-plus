@@ -7,6 +7,10 @@ export default {
     cell_2_ImgUrl: 'https://www.healthearizonaplus.gov/Default/images/State_Worker_a.jpg',
     cell_3_ImgUrl: 'https://www.healthearizonaplus.gov/Default/images/Community_Assistor_a.jpg',
 
+    bannerUrlAfterImg1Click : 'https://www.healthearizonaplus.gov/Default/images/Individual_and_family_B.jpg',
+    bannerUrlAfterImg2Click : 'https://www.healthearizonaplus.gov/Default/images/State_Worker_B.jpg',
+    bannerUrlAfterImg3Click : 'https://www.healthearizonaplus.gov/Default/images/Community_Assistor.jpg',
+
     cell_1_Img_Alt: 'Individual and family',
     cell_2_Img_Alt: 'State Worker',
     cell_3_Img_Alt: 'Community Assistor',
@@ -37,10 +41,26 @@ export default {
 
     headersTextEN: ["INDIVIDUAL AND FAMILY", "STATE WORKER", "COMMUNITY ASSISTOR"],
     headersTextSP: ["INDIVIDUAL Y FAMILIAR", "TRABAJADOR DEL ESTADO", "ASESOR COMUNITARIO"],
-    descriptionTextEN: ["Connecting individuals and families to coverage, benefits and services.",
+    descriptionTextEN: ["Connecting individuals and families to\n" +
+    "coverage, benefits and services.",
+        "AHCCCS and DES Staff Helping Arizonans get\n" +
+        "coverage, Benefits and Services.",
+        "Trained Assistors in Community Partner\n" +
+        "Organizations helping to Connect Arizonan's\n" +
+        "to coverage benefits and Services."],
+    descriptionTextSP: ["Conectando personas y familias a\n" +
+    "cobertura, beneficios y servicios.",
+        "Empleados de AHCCCS y DES ayudando a\n" +
+        "personas en Arizona para conseguir cobertura,\n" +
+        "beneficios y servicios",
+        "Aliados comunitarios capacitados que ayuden a las personas y a las familias a conectarse a la cobertura médica, los beneficios y los servicios.",
+    "Asesores capacitados en las organizaciones\n" +
+    "comunitarias asociadas para ayudarlo a encontrar\n" +
+    "cobertura, beneficios y servicios."],
+    descriptionTextEN1: ["Connecting individuals and families to coverage, benefits and services.",
         "AHCCCS and DES Staff Helping Arizonans Get Coverage, Benefits and Services.",
         "Trained Community Partners that Help Individuals and Families Connect to Coverage, Benefits and Services."],
-    descriptionTextSP: ["Conectando personas y familias a cobertura, beneficios y servicios",
+    descriptionTextSP1: ["Conectando personas y familias a cobertura, beneficios y servicios",
         "Empleados de AHCCCS y DES ayudando a personas en Arizona para conseguir cobertura, beneficios y servicios",
         "Aliados comunitarios capacitados que ayuden a las personas y a las familias a conectarse a la cobertura médica, los beneficios y los servicios."]
 }

@@ -5,10 +5,10 @@ export default {
     cellTwo: '.section6',
     cellThree: '.section7',
 
-    headers: 'h4',
+    headers: '#Are_You_1, #Do_You, What_Is',
     description: '#lbl_Testimonials',
     headersSpan: '.section7 span',
-    link: '.section-panel1 a',
+    link: '#lnk_ClickToGet, #lnk_ClickHereIf, #lnk_cms, #lnk_HEAplus',
 
     link1: '#lnk_ClickToGet',
     link2: '#lnk_ClickHereIf',

@@ -3,7 +3,7 @@ export default {
     div: '.announcement',
     row: '#container div:nth-child(-n+4)',
     header: '#Lbl_Other_Languages',
-    links: '.announcement a',
+    links: '#container a',
 
     lnkSpain: '#lnk_Spanish',
     lnkEnglish: '#lnk_English',

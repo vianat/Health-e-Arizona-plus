@@ -54,9 +54,10 @@ describe('Warning', function () {
             let spainContent = $(sel.text).getText();
             if(engContent === exp.warningEN && spainContent === exp.warningSP){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            else return false;
         });
 
 

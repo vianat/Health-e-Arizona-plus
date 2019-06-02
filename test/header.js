@@ -5,13 +5,21 @@ import exp from '../expected/header';
 
 describe('Header', function () {
 
+    describe('Client', function () {
+
+        it('Get title', function () {
+            browser.url('/');
+            let title = browser.getTitle();
+            browser.pause(500);
+            assert.equal(title, 'Health-e-Arizona > Home');
+        })
+
+    });
+
     describe('General', function () {
 
         it('header width', function () {
-
-            browser.url('/');
             let headWidth = $(sel.header).getCSSProperty("width").value;
-            // browser.pause(1000);
             assert.equal(headWidth, exp.headerWidth);
         });
 
@@ -112,18 +120,21 @@ describe('Header', function () {
             $(sel.createAcc).click();
             let url = browser.getUrl();
             $(sel.logoNotMainPage).click();
-            if(url === exp.createAcc) return true;
-            return false;
+            if(url === exp.createAcc){
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
         it('return lnk shows pop-up menu', function () {
-            $(sel.returnUser).click();
-            $(sel.returnUser).waitForDisplayed();
+            $(sel.return).click();
+            $(sel.return).waitForDisplayed();
             if($(sel.popup).isDisplayed()){
-                $(sel.returnUser).click();
-                return true;
+                $(sel.return).click();
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('help lnk shows pop-up menu', function () {
@@ -131,27 +142,32 @@ describe('Header', function () {
             $(sel.helpPopUp).waitForDisplayed();
             if($(sel.helpPopUp).isDisplayed()){
                 $(sel.helpClose).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('faq lnk shows pop-up menu', function () {
-            $(sel.faqLink).click();
-            $(sel.faqPopUp).waitForDisplayed();
-            if($(sel.faqPopUp).isDisplayed()){
-                $(sel.faqClose).click();
-                return true;
+            $(sel.faq).click();
+            $(sel.popUp).waitForDisplayed();
+            if($(sel.popUp).isDisplayed()){
+                $(sel.popUpClose).click();
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('eng lnk switch lang', function () {
             $(sel.lnkEnglish).click();
             let langAfter = $(sel.mainHeader).getText();
 
-            if(langAfter === exp.engMainHeader)return true;
-            return false;
+            if(langAfter === exp.engMainHeader){
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
         it('spain lnk switch lang', function () {
@@ -160,9 +176,10 @@ describe('Header', function () {
 
             if(langAfter === exp.spainMainHeader){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
     });
@@ -176,21 +193,23 @@ describe('Header', function () {
             let spainContent = $(sel.createAcc).getText();
             if(engContent === exp.engLinksText[0] && spainContent === exp.spainLinksText[0]){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            else return false;
         });
 
         it('lnk return = eng/spain text', function () {
 
-            let engContent = $(sel.returnUser).getText();
+            let engContent = $(sel.return).getText();
             $(sel.lnkSpain).click();
-            let spainContent = $(sel.returnUser).getText();
+            let spainContent = $(sel.return).getText();
             if(engContent === exp.engLinksText[1] && spainContent === exp.spainLinksText[1]){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            else return false;
         });
 
         it('lnk help = eng/spain text', function () {
@@ -207,14 +226,15 @@ describe('Header', function () {
 
         it('lnk faq = eng/spain text', function () {
 
-            let engContent = $(sel.faqLink).getText();
+            let engContent = $(sel.faq).getText();
             $(sel.lnkSpain).click();
-            let spainContent = $(sel.faqLink).getText();
+            let spainContent = $(sel.faq).getText();
             if(engContent === exp.engLinksText[3] && spainContent === exp.spainLinksText[3]){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            else return false;
         });
 
         it('lnk english = eng/spain text', function () {
@@ -224,9 +244,10 @@ describe('Header', function () {
             let spainContent = $(sel.lnkEnglish).getText();
             if(engContent === exp.engLinksText[4] && spainContent === exp.spainLinksText[4]){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            else return false;
         });
 
         it('lnk spain = eng/spain text', function () {
@@ -236,9 +257,10 @@ describe('Header', function () {
             let spainContent = $(sel.lnkSpain).getText();
             if(engContent === exp.engLinksText[5] && spainContent === exp.spainLinksText[5]){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            else return false;
         });
 
     });

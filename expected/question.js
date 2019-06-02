@@ -17,6 +17,5 @@ export default {
     headersTextSP: ["¿Quisiera", "¿Tiene", "¿Qué es"],
     descriptionTextEN: "Testimonials provided by the persons who have used Health-e-Arizona" +
         " PLUS to obtain and manage their coverage.",
-    descriptionTextSP: "Testimoniales proporcionados por las personas que han utilizado " +
-        "Health-e-Arizona PLUS para obtener y administrar su cobertura."
+    descriptionTextSP: "Testimoniales proporcionados por las personas que han utilizado Health-e-Arizona PLUS para obtener y administrar su cobertura."
 }

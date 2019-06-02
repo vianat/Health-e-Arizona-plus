@@ -55,7 +55,7 @@ describe('announcement', function () {
         it('color', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.color[3]){
+                if (el.getCSSProperty('color').parsed.hex !== exp.color[3]) {
                     assert.equal(false, true);
                 }
             }
@@ -65,7 +65,7 @@ describe('announcement', function () {
         it('font-family', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-family').value !== exp.family[1]){
+                if (el.getCSSProperty('font-family').value !== exp.family[1]) {
                     assert.equal(false, true);
                 }
             }
@@ -75,7 +75,7 @@ describe('announcement', function () {
         it('font-size', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-size').value !== exp.size[1]){
+                if (el.getCSSProperty('font-size').value !== exp.size[1]) {
                     assert.equal(false, true);
                 }
             }
@@ -85,7 +85,7 @@ describe('announcement', function () {
         it('font-weight', function () {
             let Arr = $$(sel.descriptions);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.weight[1]){
+                if (el.getCSSProperty('font-weight').value !== exp.weight[1]) {
                     assert.equal(false, true);
                 }
             }
@@ -125,9 +125,9 @@ describe('announcement', function () {
         });
 
         it('link open new window', function () {
-            if($(sel.link).getAttribute('target') === exp.newWindow){
+            if ($(sel.link).getAttribute('target') === exp.newWindow) {
                 assert.equal(true, true);
-            }else {
+            } else {
                 assert.equal(false, true);
             }
         });
@@ -145,37 +145,34 @@ describe('announcement', function () {
             $(sel.lnkSpain).click();
             let spainContent = $(sel.header).getText();
 
-            if(engContent === exp.headersTextEN && spainContent === exp.headersTextSP){
+            if (engContent === exp.headersTextEN && spainContent === exp.headersTextSP) {
                 $(sel.lnkEnglish).click();
                 assert.equal(true, true);
-            }else {
+            } else {
                 assert.equal(false, true);
             }
 
         });
 
-        // it('description = eng text', function () {
-        //     let arr = $$(sel.descriptions);
-        //     let allText = "";
-        //     for(let i of arr){
-        //         allText += i.getText();
-        //     }
-        //     console.log(allText);
-        //     console.log("++++");
-        //     assert.equal(allText, exp.textEN);
-        // });
-        //
-        // it('description = spain text', function () {
-        //     $(sel.lnkSpain).click();
-        //     let arr = $$(sel.descriptions);
-        //     let allText = "";
-        //     for(let i of arr){
-        //         allText += i.getText();
-        //     }
-        //     console.log(allText);
-        //     $(sel.lnkEnglish).click();
-        //     assert.equal(allText, exp.textSP);
-        // });
+        it('description = eng text', function () {
+            let arr = $$(sel.descriptions);
+            let allText = "";
+            for (let i of arr) {
+                allText += i.getText();
+            }
+            assert.equal(allText, exp.textEN);
+        });
+
+        it('description = spain text', function () {
+            $(sel.lnkSpain).click();
+            let arr = $$(sel.descriptions);
+            let allText = "";
+            for (let i of arr) {
+                allText += i.getText();
+            }
+            $(sel.lnkEnglish).click();
+            assert.equal(allText, exp.textSP);
+        });
 
     });
 

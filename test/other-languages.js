@@ -23,9 +23,11 @@ describe('Other languages', function () {
         it('cells width', function () {
             let arr = $$(sel.row);
             for (let el of arr) {
-                if (el.getCSSProperty('width').value !== exp.width[1]) return false;
+                if (el.getCSSProperty('width').value !== exp.width[1]) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -55,33 +57,42 @@ describe('Other languages', function () {
         it('color', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.color[1]) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.color[1]) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('font-family').value !== exp.family[1]) return false;
+                if (el.getCSSProperty('font-family').value !== exp.family[1]) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
+
         });
 
         it('font-size', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('font-size').value !== exp.size[1]) return false;
+                if (el.getCSSProperty('font-size').value !== exp.size[1]) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let arr = $$(sel.links);
             for (let el of arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.weight[1]) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.weight[1]) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -126,9 +137,10 @@ describe('Other languages', function () {
             let spainContent = $(sel.header).getText();
             if(engContent === exp.headerTextEN && spainContent === exp.headerTextSP){
                 $(sel.lnkEnglish).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            else return false;
         });
 
         it('spain link shows description', function () {

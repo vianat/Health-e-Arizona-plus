@@ -32,36 +32,44 @@ describe('Question section', function () {
             let Arr = $$(sel.headers);
             Arr.push($(sel.headersSpan));
             for (let el of Arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.greyColor) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.greyColor){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let Arr = $$(sel.headers);
             Arr.push($(sel.headersSpan));
             for (let el of Arr) {
-                if (el.getCSSProperty('font-family').value !== exp.family) return false;
+                if (el.getCSSProperty('font-family').value !== exp.family){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-size', function () {
             let Arr = $$(sel.headers);
             Arr.push($(sel.headersSpan));
             for (let el of Arr) {
-                if (el.getCSSProperty('font-size').value !== exp.size) return false;
+                if (el.getCSSProperty('font-size').value !== exp.size){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let Arr = $$(sel.headers);
             Arr.push($(sel.headersSpan));
             for (let el of Arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.weight) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.weight){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -71,33 +79,41 @@ describe('Question section', function () {
         it('color', function () {
             let Arr = $$(sel.link);
             for (let el of Arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.blueColor) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.blueColor){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let Arr = $$(sel.link);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-family').value !== exp.family) return false;
+                if (el.getCSSProperty('font-family').value !== exp.family){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-size', function () {
             let Arr = $$(sel.link);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-size').value !== exp.size) return false;
+                if (el.getCSSProperty('font-size').value !== exp.size){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let Arr = $$(sel.link);
             for (let el of Arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.weight) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.weight){
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -109,9 +125,10 @@ describe('Question section', function () {
             let currentURL = browser.getUrl();
             if(currentURL === exp.link1){
                 $(sel.logoNotMainPage).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('link 2 shows pop-up menu', function () {
@@ -119,16 +136,18 @@ describe('Question section', function () {
             $(sel.linkPopUp).waitForDisplayed();
             if($(sel.linkPopUp).isDisplayed()){
                 $(sel.PopUpClose).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('link 3 open new window', function () {
             if($(sel.link3).getAttribute('target') === exp.newWindow){
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('link 4 shows pop-up menu', function () {
@@ -136,9 +155,10 @@ describe('Question section', function () {
             $(sel.linkPopUp).waitForDisplayed();
             if($(sel.linkPopUp).isDisplayed()){
                 $(sel.PopUpClose).click();
-                return true;
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
             }
-            return false;
         });
 
     });
@@ -150,10 +170,10 @@ describe('Question section', function () {
             let count = arr.length;
             for(let i = 0; i < count; i++){
                 if(arr[i].getText() !== exp.headersTextEN[i]){
-                    return false;
+                    assert.equal(false, true);
                 }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('headers = spain text', function () {
@@ -164,37 +184,22 @@ describe('Question section', function () {
             for(let i = 0; i < count; i++){
                 if(arr[i].getText() !== exp.headersTextSP[i]){
                     $(sel.lnkEnglish).click();
-                    return false;
+                    assert.equal(false, true);
                 }
             }
             $(sel.lnkEnglish).click();
-            return true;
+            assert.equal(true, true);
         });
 
         it('description = eng text', function () {
-            let arr = $$(sel.description);
-            let count = arr.length;
-
-            for(let i = 0; i < count; i++){
-                if(arr[i].getText() !== exp.descriptionTextEN[i]){
-                    return false;
-                }
-            }
-            return true;
+            assert.equal($(sel.description).getText(), exp.descriptionTextEN);
         });
 
         it('description = spain text', function () {
-            let arr = $$(sel.description);
-            let count = arr.length;
-
-            for(let i = 0; i < count; i++){
-                if(arr[i].getText() !== exp.descriptionTextSP[i]){
-                    $(sel.lnkEnglish).click();
-                    return false;
-                }
-            }
+            $(sel.lnkSpain).click();
+            let el = $(sel.description).getText();
             $(sel.lnkEnglish).click();
-            return true;
+            assert.equal(el, exp.descriptionTextSP);
         });
 
     });

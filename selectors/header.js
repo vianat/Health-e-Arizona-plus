@@ -1,5 +1,6 @@
 export default {
     body: 'body',
+    mainHeader: '#lbl_Banner_Text_one',
 
     header: '.header-container',
     headerImg: '.header-container img',
@@ -12,16 +13,14 @@ export default {
     getStarted: '#img_GetStart',
     createAcc: '#lnk_CreateAccountLnk',
 
-    returnUser: '#lnk_ReturningUserLogIn',
+    return: '#lnk_ReturningUserLogIn',
     popup: '#tbl_div_login',
 
     help: '#lnk_Help',
     helpPopUp: 'body div:nth-child(3)',
     helpClose: 'div:nth-child(3) span.ui-icon-closethick',
 
-    faqLink: '#lnk_faqs',
-    faqPopUp: 'div.ui-dialog',
-    faqClose: 'span.ui-icon-closethick',
-
-    mainHeader: '#lbl_Banner_Text_one'
+    faq: '#lnk_faqs',
+    popUp: "#dynDiv",
+    popUpClose: "span.ui-icon-closethick"
 }

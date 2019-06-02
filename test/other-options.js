@@ -47,56 +47,114 @@ describe('Other option section', function () {
 
         it('cell 1 changes banner', function () {
             $(sel.cell_1_Img).click();
-            if($(sel.banner).getAttribute("src") === $(sel.cell_1_Img).getAttribute("src")) return true;
-            return false;
+            if($(sel.banner).getAttribute("src") === exp.bannerUrlAfterImg1Click) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+
         });
 
         it('cell 2 changes banner', function () {
             $(sel.cell_2_Img).click();
-            if($(sel.banner).getAttribute("src") === $(sel.cell_2_Img).getAttribute("src")) return true;
-            return false;
+            if($(sel.banner).getAttribute("src") === exp.bannerUrlAfterImg2Click) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
         it('cell 3 changes banner', function () {
             $(sel.cell_3_Img).click();
-            if($(sel.banner).getAttribute("src") === $(sel.cell_3_Img).getAttribute("src")) return true;
-            return false;
+            if($(sel.banner).getAttribute("src") === exp.bannerUrlAfterImg3Click) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
         it('cell 1 changes header', function () {
             $(sel.cell_1_Img).click();
-            if($(sel.header).getText() === exp.cell_1_Img_Alt.toUpperCase()) return true;
-            return false;
+            if($(sel.header).getText() === exp.cell_1_Img_Alt.toUpperCase()) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
         it('cell 2 changes header', function () {
             $(sel.cell_2_Img).click();
-            if($(sel.header).getText() === exp.cell_2_Img_Alt.toUpperCase()) return true;
-            return false;
+            if($(sel.header).getText() === exp.cell_2_Img_Alt.toUpperCase()) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
         it('cell 3 changes header', function () {
             $(sel.cell_3_Img).click();
-            if($(sel.header).getText() === exp.cell_3_Img_Alt.toUpperCase()) return true;
-            return false;
+            if($(sel.header).getText() === exp.cell_3_Img_Alt.toUpperCase()) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
-        it('cell 1 changes text', function () {
+        it('cell 1 changes text in EN version', function () {
             $(sel.cell_1_Img).click();
-            if($(sel.text).getText() === exp.cell_1_Img_Alt) return true;
-            return false;
+            if($(sel.text).getText() === exp.descriptionTextEN[0]) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
-        it('cell 2 changes text', function () {
+        it('cell 2 changes text in EN version', function () {
             $(sel.cell_2_Img).click();
-            if($(sel.text).getText() === exp.cell_2_Img_Alt) return true;
-            return false;
+            if($(sel.text).getText() === exp.descriptionTextEN[1]) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
         });
 
-        it('cell 3 changes text', function () {
+        it('cell 3 changes text in EN version', function () {
             $(sel.cell_3_Img).click();
-            if($(sel.text).getText() === exp.cell_3_Img_Alt) return true;
-            return false;
+            if($(sel.text).getText() === exp.descriptionTextEN[2]) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('cell 1 changes text in SP version', function () {
+            $(sel.lnkSpain).click();
+            $(sel.cell_1_Img).click();
+            if($(sel.text).getText() === exp.descriptionTextSP[0]) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('cell 2 changes text in SP version', function () {
+            $(sel.cell_2_Img).click();
+            if($(sel.text).getText() === exp.descriptionTextSP[1]) {
+                assert.equal(true, true);
+            }else {
+                assert.equal(false, true);
+            }
+        });
+
+        it('cell 3 changes text in SP version', function () {
+            $(sel.cell_3_Img).click();
+            if($(sel.text).getText() === exp.descriptionTextSP[3]) {
+                $(sel.lnkEnglish).click();
+                assert.equal(true, true);
+            }else {
+                $(sel.lnkEnglish).click();
+                assert.equal(false, true);
+            }
         });
 
     });
@@ -106,33 +164,41 @@ describe('Other option section', function () {
         it('color', function () {
             let arr = $$(sel.headers);
             for (let el of arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.headersColor) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.headersColor) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let arr = $$(sel.headers);
             for (let el of arr) {
-                if (el.getCSSProperty('font-family').value !== exp.headersFamily) return false;
+                if (el.getCSSProperty('font-family').value !== exp.headersFamily) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-size', function () {
             let arr = $$(sel.headers);
             for (let el of arr) {
-                if (el.getCSSProperty('font-size').value !== exp.headersSize) return false;
+                if (el.getCSSProperty('font-size').value !== exp.headersSize) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let arr = $$(sel.headers);
             for (let el of arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.headersWeight) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.headersWeight) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -142,33 +208,41 @@ describe('Other option section', function () {
         it('color', function () {
             let arr = $$(sel.description);
             for (let el of arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.descColor) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.descColor) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let arr = $$(sel.description);
             for (let el of arr) {
-                if (el.getCSSProperty('font-family').value !== exp.descFamily) return false;
+                if (el.getCSSProperty('font-family').value !== exp.descFamily) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-size', function () {
             let arr = $$(sel.description);
             for (let el of arr) {
-                if (el.getCSSProperty('font-size').value !== exp.descSize) return false;
+                if (el.getCSSProperty('font-size').value !== exp.descSize) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let arr = $$(sel.description);
             for (let el of arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.descWeight) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.descWeight) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -178,33 +252,41 @@ describe('Other option section', function () {
         it('color', function () {
             let arr = $$(sel.link);
             for (let el of arr) {
-                if (el.getCSSProperty('color').parsed.hex !== exp.linkColor) return false;
+                if (el.getCSSProperty('color').parsed.hex !== exp.linkColor) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-family', function () {
             let arr = $$(sel.link);
             for (let el of arr) {
-                if (el.getCSSProperty('font-family').value !== exp.linkFamily) return false;
+                if (el.getCSSProperty('font-family').value !== exp.linkFamily) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-size', function () {
             let arr = $$(sel.link);
             for (let el of arr) {
-                if (el.getCSSProperty('font-size').value !== exp.linkSize) return false;
+                if (el.getCSSProperty('font-size').value !== exp.linkSize) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('font-weight', function () {
             let arr = $$(sel.link);
             for (let el of arr) {
-                if (el.getCSSProperty('font-weight').value !== exp.linkWeight) return false;
+                if (el.getCSSProperty('font-weight').value !== exp.linkWeight) {
+                    assert.equal(false, true);
+                }
             }
-            return true;
+            assert.equal(true, true);
         });
 
     });
@@ -212,33 +294,27 @@ describe('Other option section', function () {
     describe('Links redirect', function () {
 
         it('link "Started" redirect to correct URL', function () {
-            $(sel.linkStarted).click();
-            let currentURL = browser.getUrl();
-            if(currentURL === exp.linkStartedURL){
-                $(sel.logoNotMainPage).click();
-                return true;
+            if($(sel.linkStarted).getAttribute("href") === exp.linkStartedURL){
+                assert.equal(true, true);
+            }else{
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('link "State" redirect to correct URL', function () {
-            $(sel.linkState).click();
-            let currentURL = browser.getUrl();
-            if(currentURL === exp.linkStateURL){
-                $(sel.logoNotMainPage).click();
-                return true;
+            if($(sel.linkState).getAttribute("href") === exp.linkStateURL){
+                assert.equal(true, true);
+            }else{
+                assert.equal(false, true);
             }
-            return false;
         });
 
         it('link "Community" redirect to correct URL', function () {
-            $(sel.linkCommunity).click();
-            let currentURL = browser.getUrl();
-            if(currentURL === exp.linkCommunityURL){
-                $(sel.logoNotMainPage).click();
-                return true;
+            if($(sel.linkCommunity).getAttribute("href") === exp.linkCommunityURL){
+                assert.equal(true, true);
+            }else{
+                assert.equal(false, true);
             }
-            return false;
         });
 
     });
@@ -249,10 +325,10 @@ describe('Other option section', function () {
             let arr = $$(sel.link);
             for (let element of arr){
                 if(element.getText() !== exp.linksText){
-                    return false;
+                    assert.equal(false, true);
                 }
-                return true;
             }
+            assert.equal(true, true);
         });
 
         it('links = spain text', function () {
@@ -261,11 +337,11 @@ describe('Other option section', function () {
             for (let element of arr){
                 if(element.getText() !== exp.linksTextES){
                     $(sel.lnkEnglish).click();
-                    return false;
+                    assert.equal(false, true);
                 }
-                $(sel.lnkEnglish).click();
-                return true;
             }
+            $(sel.lnkEnglish).click();
+            assert.equal(true, true);
         });
 
         it('headers = eng text', function () {
@@ -273,10 +349,10 @@ describe('Other option section', function () {
             let count = arr.length;
             for(let i = 0; i < count; i++){
                 if(arr[i].getText() !== exp.headersTextEN[i]){
-                    return false;
+                    assert.equal(false, true);
                 }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('headers = spain text', function () {
@@ -287,37 +363,36 @@ describe('Other option section', function () {
             for(let i = 0; i < count; i++){
                 if(arr[i].getText() !== exp.headersTextSP[i]){
                     $(sel.lnkEnglish).click();
-                    return false;
+                    assert.equal(false, true);
                 }
             }
             $(sel.lnkEnglish).click();
-            return true;
+            assert.equal(true, true);
         });
 
         it('description = eng text', function () {
             let arr = $$(sel.description);
             let count = arr.length;
-
             for(let i = 0; i < count; i++){
-                if(arr[i].getText() !== exp.descriptionTextEN[i]){
-                    return false;
+                if(arr[i].getText() !== exp.descriptionTextEN1[i]){
+                    assert.equal(false, true);
                 }
             }
-            return true;
+            assert.equal(true, true);
         });
 
         it('description = spain text', function () {
+            $(sel.lnkSpain).click();
             let arr = $$(sel.description);
             let count = arr.length;
-
             for(let i = 0; i < count; i++){
-                if(arr[i].getText() !== exp.descriptionTextSP[i]){
+                if(arr[i].getText() !== exp.descriptionTextSP1[i]){
                     $(sel.lnkEnglish).click();
-                    return false;
+                    assert.equal(false, true);
                 }
             }
             $(sel.lnkEnglish).click();
-            return true;
+            assert.equal(true, true);
         });
 
     });

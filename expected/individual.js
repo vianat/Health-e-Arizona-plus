@@ -18,10 +18,10 @@ export default {
     btnEngImg: 'https://www.healthearizonaplus.gov/Default/images/get_started.png',
     btnSpainImg: 'https://www.healthearizonaplus.gov/Default/images/get_started_ES.png',
     btnImgAlt: 'Get Started',
-    btnUrl: 'https://www.healthearizonaplus.gov/app/Info_Family_Individual.aspx?TokenID=0.17030912803306708',
+    btnUrl: 'https://www.healthearizonaplus.gov/app/Info_Family_Individual.aspx',
 
-    engText: [ "INDIVIDUAL AND FAMILY", "Connecting individuals and families to \n" +
-    "coverage, benefits and services.",],
-    spainText: ["INDIVIDUAL Y FAMILIAR",'Conectando personas y familias \n' +
-    'a cobertura, beneficios y servicios' ]
+    engText: ["INDIVIDUAL AND FAMILY", "Connecting individuals and families to\n" +
+    "coverage, benefits and services."],
+    spainText: ["INDIVIDUAL Y FAMILIAR",'Conectando personas y familias\n' +
+    'a cobertura, beneficios y servicios']
 }
