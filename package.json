@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "npm run clean && wdio wdio.conf.js && npm run report",
+    "report": "allure generate --clean && allure open",
+    "clean": "rm -rf allure-results"
   },
   "keywords": [],
   "author": "Sergei Nikiforov",
@@ -15,6 +17,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/register": "^7.4.4",
     "@wdio/cli": "^5.9.4",
+    "chai": "^4.2.0",
     "webdriverio": "^5.9.4"
   },
   "devDependencies": {

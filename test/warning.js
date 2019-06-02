@@ -1,5 +1,4 @@
-import assert from 'assert';
-// import {assert} from 'chai';
+import {assert} from 'chai';
 import sel from '../selectors/warning';
 import exp from '../expected/warning';
 
