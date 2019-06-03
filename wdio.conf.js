@@ -21,7 +21,7 @@ exports.config = {
         //
         browserName: 'chrome',
         'goog:chromeOptions':{
-            args: ['--headless'],
+            //args: ['--headless'],
             // prefs: {
             //     language: ''
             // }
