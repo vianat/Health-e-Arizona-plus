@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655a75fc-ea48-4471-9695-11c050f3a214" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
-    </list>
+    <list default="true" id="655a75fc-ea48-4471-9695-11c050f3a214" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,56 +11,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/screenshots/screenTests.js">
+        <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#240#739#0" />
-                <element signature="e#283#464#0" />
-                <element signature="e#510#730#0" />
-                <element signature="e#782#6746#0" />
-                <element signature="e#826#1032#0" />
-                <element signature="e#1079#1337#0" />
-                <element signature="e#1390#1528#0" />
-                <element signature="e#1583#1844#0" />
-                <element signature="e#1900#2115#0" />
-                <element signature="e#2174#2391#0" />
-                <element signature="e#2455#2678#0" />
-                <element signature="e#2736#3042#0" />
-                <element signature="e#3103#3370#0" />
-                <element signature="e#3436#3752#0" />
-                <element signature="e#3803#3999#0" />
-                <element signature="e#4052#4317#0" />
-                <element signature="e#4365#4552#0" />
-                <element signature="e#4602#4875#0" />
-                <element signature="e#4923#5110#0" />
-                <element signature="e#5160#5433#0" />
-                <element signature="e#5479#5660#0" />
-                <element signature="e#5708#5975#0" />
-                <element signature="e#6014#6168#0" />
-                <element signature="e#6790#13902#0" />
-                <element signature="e#7635#7894#0" />
-                <element signature="e#7940#8276#0" />
-                <element signature="e#8320#8576#0" />
-                <element signature="e#8621#8955#0" />
-                <element signature="e#9000#9258#0" />
-                <element signature="e#9304#9640#0" />
-                <element signature="e#9684#9940#0" />
-                <element signature="e#9985#10319#0" />
-                <element signature="e#10367#10631#0" />
-                <element signature="e#10680#11024#0" />
-                <element signature="e#11072#11375#0" />
-                <element signature="e#11424#11766#0" />
-                <element signature="e#11817#12087#0" />
-                <element signature="e#12139#12487#0" />
-                <element signature="e#12533#12793#0" />
-                <element signature="e#12840#13178#0" />
-                <element signature="e#13228#13496#0" />
-                <element signature="e#13547#13893#0" />
-                <element signature="e#13964#18575#0" />
-              </folding>
+            <state relative-caret-position="529">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -161,11 +112,6 @@
               <item name="Health-e-Arizona-plus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Health-e-Arizona-plus" type="462c0819:PsiDirectoryNode" />
               <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Health-e-Arizona-plus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Health-e-Arizona-plus" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,12 +229,12 @@
       <workItem from="1559528045110" duration="2980000" />
       <workItem from="1559531727931" duration="3000" />
       <workItem from="1559532006964" duration="1539000" />
-      <workItem from="1559577922116" duration="2923000" />
+      <workItem from="1559577922116" duration="3621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121304000" />
+    <option name="totallyTimeSpent" value="122002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -408,17 +354,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/screenshots/screenTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="345">
+          <caret line="475" column="3" lean-forward="true" selection-start-line="475" selection-start-column="3" selection-end-line="475" selection-end-column="3" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <element signature="e#240#739#0" />
@@ -465,6 +404,13 @@
             <element signature="e#13547#13893#0" />
             <element signature="e#13964#18575#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
