@@ -5,8 +5,8 @@ exports.config = {
     runner: 'local',
 
     specs: [
+        './test/*.js',
         './test/screenshots/*.js'
-        //'./test/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -22,9 +22,9 @@ exports.config = {
         browserName: 'chrome',
         'goog:chromeOptions':{
             args: ['--headless'],
-            prefs: {
-                language: ''
-            }
+            // prefs: {
+            //     language: ''
+            // }
         }
 
     }],
@@ -52,7 +52,9 @@ exports.config = {
                 autoSaveBaseline: true,
                 blockOutStatusBar: true,
                 blockOutToolBar: true,
+                // misMatchTolerance: 1
             }],
+
     ],
 
     framework: 'mocha',

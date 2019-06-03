@@ -4,15 +4,16 @@ export default {
     actPath: '/actual/',
     diffPath: '/diff/',
     mergePath: './merge/',
-    login: 'login',
-    forgot: 'forgot',
-    register: 'registration',
-    listHeader: 'bug-list-header',
-    listNavBar: 'bug-list-nav-bar',
-    listTHead: 'bug-list-thead',
-    listLastBug: 'bug-list-last-bug',
-    listFooter: 'bug-list-footer',
-    bugDefault: 'bug-report-default-mode',
-    bugEdit: 'bug-report-edit-mode'
+
+    fullPageEng: 'full-page-eng',
+    fullPageSpain: 'full-page-spain',
+    register: 'bug',
+    listHeader: 'bug',
+    listNavBar: 'bug',
+    listTHead: 'bug-',
+    listLastBug: 'bug',
+    listFooter: 'bug',
+    bugDefault: 'bug',
+    bugEdit: 'buge'
 
 }
