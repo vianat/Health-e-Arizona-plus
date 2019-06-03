@@ -6,18 +6,21 @@
   "scripts": {
     "test": "npm run clean && wdio wdio.conf.js && npm run report",
     "report": "allure generate --clean && allure open",
-    "clean": "rm -rf allure-results"
+    "clean": "rm -rf allure-results screenshots/actual screenshots/diff"
   },
   "keywords": [],
   "author": "Sergei Nikiforov",
   "license": "ISC",
   "dependencies": {
+    "allure-commandline": "^2.9.0",
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/register": "^7.4.4",
     "@wdio/cli": "^5.9.4",
     "chai": "^4.2.0",
+    "merge-img": "^2.1.3",
+    "wdio-image-comparison-service": "^1.0.1",
     "webdriverio": "^5.9.4"
   },
   "devDependencies": {

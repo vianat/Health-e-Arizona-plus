@@ -1,5 +1,9 @@
+node_modules
 allure-results
 allure-report
-node_modules
 .git
 .idea
+bash.exe.stackdump
+debug.log
+screenshots
+merge/*.png
