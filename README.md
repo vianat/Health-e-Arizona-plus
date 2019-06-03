@@ -1,14 +1,13 @@
 # Health-e-Arizona-plus
 
 ## 1. Prerequisites
-#### 1.1. Install Node.js:
+#### 1.1. Install Node.js
 
-#### 1.2. Install Git:
+#### 1.2. Install Git
 
-#### 1.3. Install Java SE Development Kit:
+#### 1.3. Install Java SE Development Kit
 
-### Additional MacOS prerequisites:
-#### 1.4. Install Xcode:
+#### 1.4. Install Xcode (additional for MacOS)
 
 ### Additional Windows prerequisites:
 #### 1.5. Install all the required tools and configurations using Microsoft's windows-build-tools:
