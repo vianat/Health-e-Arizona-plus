@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655a75fc-ea48-4471-9695-11c050f3a214" name="Default Changelist" comment="" />
+    <list default="true" id="655a75fc-ea48-4471-9695-11c050f3a214" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selectors/screenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/selectors/screenshots.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +16,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="598">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/screenshots/screenTests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="466" column="34" selection-start-line="466" selection-start-column="34" selection-end-line="466" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#240#851#0" />
+                <element signature="e#894#6247#0" />
+                <element signature="e#6291#12602#0" />
+                <element signature="e#6335#6594#0" />
+                <element signature="e#6640#6976#0" />
+                <element signature="e#7020#7276#0" />
+                <element signature="e#7321#7655#0" />
+                <element signature="e#7700#7958#0" />
+                <element signature="e#8004#8340#0" />
+                <element signature="e#8384#8640#0" />
+                <element signature="e#8685#9019#0" />
+                <element signature="e#9067#9331#0" />
+                <element signature="e#9380#9724#0" />
+                <element signature="e#9772#10075#0" />
+                <element signature="e#10124#10466#0" />
+                <element signature="e#10517#10787#0" />
+                <element signature="e#10839#11187#0" />
+                <element signature="e#11233#11493#0" />
+                <element signature="e#11540#11878#0" />
+                <element signature="e#11928#12196#0" />
+                <element signature="e#12247#12593#0" />
+                <element signature="e#12699#12946#0" />
+                <element signature="e#12983#13232#0" />
+                <element signature="e#13269#13518#0" />
+                <element signature="e#13555#13804#0" />
+                <element signature="e#13841#14090#0" />
+                <element signature="e#14128#14379#0" />
+                <element signature="e#14417#14668#0" />
+                <element signature="e#14706#14957#0" />
+                <element signature="e#14995#15246#0" />
+                <element signature="e#15283#15532#0" />
+                <element signature="e#15571#15824#0" />
+                <element signature="e#15859#16104#0" />
+                <element signature="e#16145#16402#0" />
+                <element signature="e#16439#16688#0" />
+                <element signature="e#16726#16977#0" />
+                <element signature="e#17015#17266#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,13 +122,11 @@
         <option value="$PROJECT_DIR$/test/smoke.js" />
         <option value="$PROJECT_DIR$/smoke.conf.js" />
         <option value="$PROJECT_DIR$/test/announcement.js" />
-        <option value="$PROJECT_DIR$/test/footer.js" />
         <option value="$PROJECT_DIR$/test/header.js" />
         <option value="$PROJECT_DIR$/test/individual.js" />
         <option value="$PROJECT_DIR$/test/logo.js" />
         <option value="$PROJECT_DIR$/test/other-languages.js" />
         <option value="$PROJECT_DIR$/test/other-options.js" />
-        <option value="$PROJECT_DIR$/test/questions.js" />
         <option value="$PROJECT_DIR$/test/warning.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -81,9 +134,11 @@
         <option value="$PROJECT_DIR$/test/screenshots/SCtest.js" />
         <option value="$PROJECT_DIR$/selectors/Screenshots.js" />
         <option value="$PROJECT_DIR$/test/screenshots/ScreenTests.js" />
-        <option value="$PROJECT_DIR$/selectors/screenshots.js" />
         <option value="$PROJECT_DIR$/test/data/screenshots.js" />
         <option value="$PROJECT_DIR$/wdio.conf.js" />
+        <option value="$PROJECT_DIR$/selectors/screenshots.js" />
+        <option value="$PROJECT_DIR$/test/footer.js" />
+        <option value="$PROJECT_DIR$/test/questions.js" />
         <option value="$PROJECT_DIR$/test/screenshots/screenTests.js" />
       </list>
     </option>
@@ -100,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,10 +167,22 @@
               <item name="Health-e-Arizona-plus" type="462c0819:PsiDirectoryNode" />
               <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Health-e-Arizona-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Health-e-Arizona-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Health-e-Arizona-plus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Health-e-Arizona-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,17 +295,20 @@
       <workItem from="1559528045110" duration="2980000" />
       <workItem from="1559531727931" duration="3000" />
       <workItem from="1559532006964" duration="1539000" />
-      <workItem from="1559577922116" duration="3621000" />
+      <workItem from="1559577922116" duration="4323000" />
+      <workItem from="1559689856131" duration="5000" />
+      <workItem from="1559690831687" duration="3689000" />
+      <workItem from="1559695130967" duration="1178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122002000" />
+    <option name="totallyTimeSpent" value="127576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1263911" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12877584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -277,27 +346,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/privacy_popup_spain.png" />
-    <entry file="file://$PROJECT_DIR$/selectors/other-languages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expected/other-languages.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_eng.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/diff/return_popup_spain.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/diff/mission_popup_eng.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_spain.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/mission_popup_eng.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/mission_popup_spain.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/nonDiscrim_popup_eng.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/nonDiscrim_popup_spain.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/spain_lang_description.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/diff/spain_lang_description.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/baseline/spain_lang_description.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/actual/arabic_lang_description.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/actual/chinese_lang_description.png" />
@@ -308,13 +356,6 @@
     <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_japanese.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_thai.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_vietnamese.png" />
-    <entry file="file://$PROJECT_DIR$/selectors/screenshots.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_spain.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_eng.png" />
     <entry file="file://$PROJECT_DIR$/test/data/screenshots.js">
@@ -337,7 +378,6 @@
     <entry file="file://$PROJECT_DIR$/screenshots/actual/state_worker_banner_eng.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/actual/faq_popup_eng.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/baseline/faq_popup_eng.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/diff/faq_popup_spain.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/diff/lang_japanese.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/diff/lang_navajo.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/diff/state_worker_banner_eng.png" />
@@ -354,63 +394,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/screenshots/screenTests.js">
+    <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_spain.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_eng.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/diff/faq_popup_spain.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/faq_popup_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/faq_popup_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/default_banner_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/default_banner_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_without_footer_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/full_page_without_footer_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/full_page_without_footer_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_without_footer_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="475" column="3" lean-forward="true" selection-start-line="475" selection-start-column="3" selection-end-line="475" selection-end-column="3" />
+        <state relative-caret-position="276">
+          <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#240#739#0" />
-            <element signature="e#283#464#0" />
-            <element signature="e#510#730#0" />
-            <element signature="e#782#6746#0" />
-            <element signature="e#826#1032#0" />
-            <element signature="e#1079#1337#0" />
-            <element signature="e#1390#1528#0" />
-            <element signature="e#1583#1844#0" />
-            <element signature="e#1900#2115#0" />
-            <element signature="e#2174#2391#0" />
-            <element signature="e#2455#2678#0" />
-            <element signature="e#2736#3042#0" />
-            <element signature="e#3103#3370#0" />
-            <element signature="e#3436#3752#0" />
-            <element signature="e#3803#3999#0" />
-            <element signature="e#4052#4317#0" />
-            <element signature="e#4365#4552#0" />
-            <element signature="e#4602#4875#0" />
-            <element signature="e#4923#5110#0" />
-            <element signature="e#5160#5433#0" />
-            <element signature="e#5479#5660#0" />
-            <element signature="e#5708#5975#0" />
-            <element signature="e#6014#6168#0" />
-            <element signature="e#6790#13902#0" />
-            <element signature="e#7635#7894#0" />
-            <element signature="e#7940#8276#0" />
-            <element signature="e#8320#8576#0" />
-            <element signature="e#8621#8955#0" />
-            <element signature="e#9000#9258#0" />
-            <element signature="e#9304#9640#0" />
-            <element signature="e#9684#9940#0" />
-            <element signature="e#9985#10319#0" />
-            <element signature="e#10367#10631#0" />
-            <element signature="e#10680#11024#0" />
-            <element signature="e#11072#11375#0" />
-            <element signature="e#11424#11766#0" />
-            <element signature="e#11817#12087#0" />
-            <element signature="e#12139#12487#0" />
-            <element signature="e#12533#12793#0" />
-            <element signature="e#12840#13178#0" />
-            <element signature="e#13228#13496#0" />
-            <element signature="e#13547#13893#0" />
-            <element signature="e#13964#18575#0" />
+            <element signature="e#177#959#0" />
+            <element signature="e#1004#2296#0" />
+            <element signature="e#2346#3731#0" />
+            <element signature="e#3778#5584#0" />
+            <element signature="e#3837#4135#0" />
+            <element signature="e#4195#4493#0" />
+            <element signature="e#4563#4871#0" />
+            <element signature="e#4929#5225#0" />
+            <element signature="e#5281#5575#0" />
+            <element signature="e#5639#8306#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/screenshots.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#191#802#0" />
+            <element signature="e#846#2288#0" />
+            <element signature="e#2326#3588#0" />
+            <element signature="e#3695#3996#0" />
+            <element signature="e#4051#4355#0" />
+            <element signature="e#4408#4609#0" />
+            <element signature="e#4664#4968#0" />
+            <element signature="e#5032#6273#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="598">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/screenshots/screenTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="466" column="34" selection-start-line="466" selection-start-column="34" selection-end-line="466" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#240#851#0" />
+            <element signature="e#894#6247#0" />
+            <element signature="e#6291#12602#0" />
+            <element signature="e#6335#6594#0" />
+            <element signature="e#6640#6976#0" />
+            <element signature="e#7020#7276#0" />
+            <element signature="e#7321#7655#0" />
+            <element signature="e#7700#7958#0" />
+            <element signature="e#8004#8340#0" />
+            <element signature="e#8384#8640#0" />
+            <element signature="e#8685#9019#0" />
+            <element signature="e#9067#9331#0" />
+            <element signature="e#9380#9724#0" />
+            <element signature="e#9772#10075#0" />
+            <element signature="e#10124#10466#0" />
+            <element signature="e#10517#10787#0" />
+            <element signature="e#10839#11187#0" />
+            <element signature="e#11233#11493#0" />
+            <element signature="e#11540#11878#0" />
+            <element signature="e#11928#12196#0" />
+            <element signature="e#12247#12593#0" />
+            <element signature="e#12699#12946#0" />
+            <element signature="e#12983#13232#0" />
+            <element signature="e#13269#13518#0" />
+            <element signature="e#13555#13804#0" />
+            <element signature="e#13841#14090#0" />
+            <element signature="e#14128#14379#0" />
+            <element signature="e#14417#14668#0" />
+            <element signature="e#14706#14957#0" />
+            <element signature="e#14995#15246#0" />
+            <element signature="e#15283#15532#0" />
+            <element signature="e#15571#15824#0" />
+            <element signature="e#15859#16104#0" />
+            <element signature="e#16145#16402#0" />
+            <element signature="e#16439#16688#0" />
+            <element signature="e#16726#16977#0" />
+            <element signature="e#17015#17266#0" />
+          </folding>
         </state>
       </provider>
     </entry>

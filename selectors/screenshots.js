@@ -4,6 +4,7 @@ export default {
     lnkEnglish: '#lnk_English',
 
     header: ".header-container",
+    dody: ".main-shadow",
 
     banner: ".banner",
     img1: ".section1 img",

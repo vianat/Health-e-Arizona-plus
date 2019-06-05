@@ -123,6 +123,7 @@ describe('Footer', function () {
 
         it('privacy lnk shows pop-up menu', function () {
             $(sel.privacy).click();
+            browser.pause(1000);
             $(sel.popUp).waitForDisplayed();
             if($(sel.popUp).isDisplayed()){
                 $(sel.popUpClose).click();
@@ -134,6 +135,7 @@ describe('Footer', function () {
 
         it('mission lnk shows pop-up menu', function () {
             $(sel.mission).click();
+            browser.pause(1000);
             $(sel.popUp).waitForDisplayed();
             if($(sel.popUp).isDisplayed()){
                 $(sel.popUpClose).click();
@@ -145,6 +147,7 @@ describe('Footer', function () {
 
         it('nonDiscrimination lnk shows pop-up menu', function () {
             $(sel.nonDiscrimination).click();
+            browser.pause(1000);
             $(sel.popUp).waitForDisplayed();
             if($(sel.popUp).isDisplayed()){
                 $(sel.popUpClose).click();
@@ -156,6 +159,7 @@ describe('Footer', function () {
 
         it('about lnk shows pop-up menu', function () {
             $(sel.about).click();
+            browser.pause(1000);
             $(sel.popUp).waitForDisplayed();
             if($(sel.popUp).isDisplayed()){
                 $(sel.popUpClose).click();
@@ -167,6 +171,7 @@ describe('Footer', function () {
 
         it('faq lnk shows pop-up menu', function () {
             $(sel.faq).click();
+            browser.pause(1000);
             $(sel.popUp).waitForDisplayed();
             if($(sel.popUp).isDisplayed()){
                 $(sel.popUpClose).click();

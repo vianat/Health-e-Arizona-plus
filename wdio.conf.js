@@ -21,7 +21,7 @@ exports.config = {
         //
         browserName: 'chrome',
         'goog:chromeOptions':{
-            //args: ['--headless'],
+            args: ['--headless'],
             // prefs: {
             //     language: ''
             // }
@@ -52,7 +52,7 @@ exports.config = {
                 autoSaveBaseline: true,
                 blockOutStatusBar: true,
                 blockOutToolBar: true,
-                // misMatchTolerance: 1
+                misMatchTolerance: 1
             }],
 
     ],

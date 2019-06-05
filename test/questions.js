@@ -73,7 +73,7 @@ describe('Question section', function () {
 
     });
 
-    describe('Links', function () {
+    describe('Links style', function () {
 
         it('color', function () {
             let Arr = $$(sel.link);
@@ -121,6 +121,7 @@ describe('Question section', function () {
 
         it('link 1 redirect to correct URL', function () {
             $(sel.link1).click();
+            browser.pause(2000);
             let currentURL = browser.getUrl();
             if(currentURL === exp.link1){
                 $(sel.logoNotMainPage).click();
@@ -132,6 +133,7 @@ describe('Question section', function () {
 
         it('link 2 shows pop-up menu', function () {
             $(sel.link2).click();
+            browser.pause(2000);
             $(sel.linkPopUp).waitForDisplayed();
             if($(sel.linkPopUp).isDisplayed()){
                 $(sel.PopUpClose).click();
@@ -151,6 +153,7 @@ describe('Question section', function () {
 
         it('link 4 shows pop-up menu', function () {
             $(sel.link4).click();
+            browser.pause(2000);
             $(sel.linkPopUp).waitForDisplayed();
             if($(sel.linkPopUp).isDisplayed()){
                 $(sel.PopUpClose).click();
