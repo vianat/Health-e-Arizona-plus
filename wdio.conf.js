@@ -5,7 +5,7 @@ exports.config = {
     runner: 'local',
 
     specs: [
-        //'./test/*.js',
+        './test/*.js',
         './test/screenshots/*.js'
     ],
     // Patterns to exclude.
@@ -21,7 +21,7 @@ exports.config = {
         //
         browserName: 'chrome',
         'goog:chromeOptions':{
-            args: ['--headless'],
+            //args: ['--headless'],
             // prefs: {
             //     language: ''
             // }

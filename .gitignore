@@ -6,4 +6,3 @@ allure-report
 bash.exe.stackdump
 debug.log
 screenshots
-screenshots/merge/*.png
