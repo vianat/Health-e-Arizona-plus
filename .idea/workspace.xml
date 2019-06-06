@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a75fc-ea48-4471-9695-11c050f3a214" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selectors/screenshots.js" beforeDir="false" afterPath="$PROJECT_DIR$/selectors/screenshots.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/questions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="529">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -28,47 +26,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/screenshots/screenTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="466" column="34" selection-start-line="466" selection-start-column="34" selection-end-line="466" selection-end-column="34" />
+            <state relative-caret-position="322">
+              <caret line="488" selection-start-line="488" selection-end-line="488" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <element signature="e#240#851#0" />
-                <element signature="e#894#6247#0" />
-                <element signature="e#6291#12602#0" />
-                <element signature="e#6335#6594#0" />
-                <element signature="e#6640#6976#0" />
-                <element signature="e#7020#7276#0" />
-                <element signature="e#7321#7655#0" />
-                <element signature="e#7700#7958#0" />
-                <element signature="e#8004#8340#0" />
-                <element signature="e#8384#8640#0" />
-                <element signature="e#8685#9019#0" />
-                <element signature="e#9067#9331#0" />
-                <element signature="e#9380#9724#0" />
-                <element signature="e#9772#10075#0" />
-                <element signature="e#10124#10466#0" />
-                <element signature="e#10517#10787#0" />
-                <element signature="e#10839#11187#0" />
-                <element signature="e#11233#11493#0" />
-                <element signature="e#11540#11878#0" />
-                <element signature="e#11928#12196#0" />
-                <element signature="e#12247#12593#0" />
-                <element signature="e#12699#12946#0" />
-                <element signature="e#12983#13232#0" />
-                <element signature="e#13269#13518#0" />
-                <element signature="e#13555#13804#0" />
-                <element signature="e#13841#14090#0" />
-                <element signature="e#14128#14379#0" />
-                <element signature="e#14417#14668#0" />
-                <element signature="e#14706#14957#0" />
-                <element signature="e#14995#15246#0" />
-                <element signature="e#15283#15532#0" />
-                <element signature="e#15571#15824#0" />
-                <element signature="e#15859#16104#0" />
-                <element signature="e#16145#16402#0" />
-                <element signature="e#16439#16688#0" />
-                <element signature="e#16726#16977#0" />
-                <element signature="e#17015#17266#0" />
+                <element signature="e#1437#6823#0" />
+                <element signature="e#6867#13178#0" />
+                <element signature="e#13240#17851#0" />
               </folding>
             </state>
           </provider>
@@ -135,10 +100,10 @@
         <option value="$PROJECT_DIR$/selectors/Screenshots.js" />
         <option value="$PROJECT_DIR$/test/screenshots/ScreenTests.js" />
         <option value="$PROJECT_DIR$/test/data/screenshots.js" />
-        <option value="$PROJECT_DIR$/wdio.conf.js" />
         <option value="$PROJECT_DIR$/selectors/screenshots.js" />
         <option value="$PROJECT_DIR$/test/footer.js" />
         <option value="$PROJECT_DIR$/test/questions.js" />
+        <option value="$PROJECT_DIR$/wdio.conf.js" />
         <option value="$PROJECT_DIR$/test/screenshots/screenTests.js" />
       </list>
     </option>
@@ -155,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,13 +148,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-automation-webdriverio-qa3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -203,6 +168,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\QA\Health-e-Arizona-plus\screenshots" />
       <recent name="C:\QA\Health-e-Arizona-plus\test\" />
       <recent name="C:\QA\Health-e-Arizona-plus\test\header" />
     </key>
@@ -298,17 +264,19 @@
       <workItem from="1559577922116" duration="4323000" />
       <workItem from="1559689856131" duration="5000" />
       <workItem from="1559690831687" duration="3689000" />
-      <workItem from="1559695130967" duration="1178000" />
+      <workItem from="1559695130967" duration="1647000" />
+      <workItem from="1559762529930" duration="6000" />
+      <workItem from="1559833180689" duration="3212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127576000" />
+    <option name="totallyTimeSpent" value="131263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12877584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13036565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -316,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32969603" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32896763" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.32896763" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
@@ -326,7 +294,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.43402225" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.43402225" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,25 +314,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/screenshots/baseline/spain_lang_description.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/arabic_lang_description.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/chinese_lang_description.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_arabic.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_chinese.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_german.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_italian.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_japanese.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_thai.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_vietnamese.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_spain.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_eng.png" />
-    <entry file="file://$PROJECT_DIR$/test/data/screenshots.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/diff/lang_persian.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/diff/footer_eng.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/diff/footer_spain.png" />
@@ -387,13 +336,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/diff/faq_popup_eng.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/actual/about_popup_eng.png" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_spain.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_eng.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/diff/faq_popup_spain.png" />
@@ -407,18 +349,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/actual/default_banner_eng.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_without_footer_spain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/baseline/full_page_without_footer_eng.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/baseline/full_page_without_footer_spain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_without_footer_eng.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/footer.js">
@@ -438,13 +368,6 @@
             <element signature="e#5281#5575#0" />
             <element signature="e#5639#8306#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectors/screenshots.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -473,56 +396,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/find_popup_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_chinese.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/lang_syriac.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/community_assistor_banner_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/header_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/header_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/diff/header_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/header_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/header_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/about_popup_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/screenshots.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_without_footer_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/full_page_without_footer_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/baseline/full_page_without_footer_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_without_footer_eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/actual/full_page_without_footer_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/diff/full_page_without_footer_spain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eng.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="529">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/screenshots/screenTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="466" column="34" selection-start-line="466" selection-start-column="34" selection-end-line="466" selection-end-column="34" />
+        <state relative-caret-position="322">
+          <caret line="488" selection-start-line="488" selection-end-line="488" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <element signature="e#240#851#0" />
-            <element signature="e#894#6247#0" />
-            <element signature="e#6291#12602#0" />
-            <element signature="e#6335#6594#0" />
-            <element signature="e#6640#6976#0" />
-            <element signature="e#7020#7276#0" />
-            <element signature="e#7321#7655#0" />
-            <element signature="e#7700#7958#0" />
-            <element signature="e#8004#8340#0" />
-            <element signature="e#8384#8640#0" />
-            <element signature="e#8685#9019#0" />
-            <element signature="e#9067#9331#0" />
-            <element signature="e#9380#9724#0" />
-            <element signature="e#9772#10075#0" />
-            <element signature="e#10124#10466#0" />
-            <element signature="e#10517#10787#0" />
-            <element signature="e#10839#11187#0" />
-            <element signature="e#11233#11493#0" />
-            <element signature="e#11540#11878#0" />
-            <element signature="e#11928#12196#0" />
-            <element signature="e#12247#12593#0" />
-            <element signature="e#12699#12946#0" />
-            <element signature="e#12983#13232#0" />
-            <element signature="e#13269#13518#0" />
-            <element signature="e#13555#13804#0" />
-            <element signature="e#13841#14090#0" />
-            <element signature="e#14128#14379#0" />
-            <element signature="e#14417#14668#0" />
-            <element signature="e#14706#14957#0" />
-            <element signature="e#14995#15246#0" />
-            <element signature="e#15283#15532#0" />
-            <element signature="e#15571#15824#0" />
-            <element signature="e#15859#16104#0" />
-            <element signature="e#16145#16402#0" />
-            <element signature="e#16439#16688#0" />
-            <element signature="e#16726#16977#0" />
-            <element signature="e#17015#17266#0" />
+            <element signature="e#1437#6823#0" />
+            <element signature="e#6867#13178#0" />
+            <element signature="e#13240#17851#0" />
           </folding>
         </state>
       </provider>

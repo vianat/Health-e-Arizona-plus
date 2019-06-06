@@ -5,7 +5,7 @@ exports.config = {
     runner: 'local',
 
     specs: [
-        './test/*.js',
+        //'./test/*.js',
         './test/screenshots/*.js'
     ],
     // Patterns to exclude.
@@ -53,6 +53,7 @@ exports.config = {
                 blockOutStatusBar: true,
                 blockOutToolBar: true,
                 misMatchTolerance: 1
+                //viewportChangePause: 3000
             }],
 
     ],
