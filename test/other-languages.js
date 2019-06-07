@@ -142,99 +142,75 @@ describe('Other languages', function () {
             }
         });
 
-        it('spain link shows description', function () {
-            $(sel.spain).click();
-            $(sel.langDescription).waitForDisplayed();
-            assert.equal($(sel.langDescription).getText(), exp.spain);
-        });
-
-        it('arabic link shows description', function () {
-            $(sel.arabic).click();
-            $(sel.langDescription).waitForDisplayed();
-            assert.equal($(sel.langDescription).getText(), exp.arabic);
-        });
-
-        it('german link shows description', function () {
-            $(sel.german).click();
-            $(sel.langDescription).waitForDisplayed();
-            assert.equal($(sel.langDescription).getText(), exp.german);
-        });
-
-        it('syriac link shows description', function () {
-            $(sel.syriac).click();
-            $(sel.langDescription).waitForDisplayed();
-            assert.equal($(sel.langDescription).getText(), exp.syriac);
-        });
-
         it('navajo link shows description', function () {
             $(sel.navajo).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.navajo);
         });
 
         it('tagalog link shows description', function () {
             $(sel.tagalog).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.tagalog);
         });
 
         it('russian link shows description', function () {
             $(sel.russian).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.russian);
         });
 
         it('serbian link shows description', function () {
             $(sel.serbian).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.serbian);
         });
 
         it('chinese link shows description', function () {
             $(sel.chinese).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.chinese);
         });
 
         it('korean link shows description', function () {
             $(sel.korean).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.korean);
         });
 
         it('japanese link shows description', function () {
             $(sel.japanese).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.japanese);
         });
 
         it('thai link shows description', function () {
             $(sel.thai).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.thai);
         });
 
         it('vietnamese link shows description', function () {
             $(sel.vietnamese).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.vietnamese);
         });
 
         it('french link shows description', function () {
             $(sel.french).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.french);
         });
 
         it('persian link shows description', function () {
             $(sel.persian).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.persian);
         });
 
         it('italian link shows description', function () {
             $(sel.italian).click();
-            $(sel.langDescription).waitForDisplayed();
+            $(sel.langDescription).waitForDisplayed(2000);
             assert.equal($(sel.langDescription).getText(), exp.italian);
         });
 

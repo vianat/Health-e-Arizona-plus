@@ -117,54 +117,6 @@ describe('Question section', function () {
 
     });
 
-    describe('Links redirect', function () {
-
-        it('link 1 redirect to correct URL', function () {
-            $(sel.link1).click();
-            browser.pause(2000);
-            let currentURL = browser.getUrl();
-            if(currentURL === exp.link1){
-                $(sel.logoNotMainPage).click();
-                assert.equal(true, true);
-            }else {
-                assert.equal(false, true);
-            }
-        });
-
-        it('link 2 shows pop-up menu', function () {
-            $(sel.link2).click();
-            browser.pause(2000);
-            $(sel.linkPopUp).waitForDisplayed();
-            if($(sel.linkPopUp).isDisplayed()){
-                $(sel.PopUpClose).click();
-                assert.equal(true, true);
-            }else {
-                assert.equal(false, true);
-            }
-        });
-
-        it('link 3 open new window', function () {
-            if($(sel.link3).getAttribute('target') === exp.newWindow){
-                assert.equal(true, true);
-            }else {
-                assert.equal(false, true);
-            }
-        });
-
-        it('link 4 shows pop-up menu', function () {
-            $(sel.link4).click();
-            browser.pause(2000);
-            $(sel.linkPopUp).waitForDisplayed();
-            if($(sel.linkPopUp).isDisplayed()){
-                $(sel.PopUpClose).click();
-                assert.equal(true, true);
-            }else {
-                assert.equal(false, true);
-            }
-        });
-
-    });
-
     describe('Localization & content', function () {
 
         it('headers = eng text', function () {
